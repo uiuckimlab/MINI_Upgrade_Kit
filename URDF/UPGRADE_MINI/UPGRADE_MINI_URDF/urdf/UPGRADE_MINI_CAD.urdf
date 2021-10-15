@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="UPGRADE_MINI_CAD">
+  <link
+    name="Body">
+    <inertial>
+      <origin
+        xyz="-0.0091918 -0.00047008 -0.016078"
+        rpy="0 0 0" />
+      <mass
+        value="0.2437" />
+      <inertia
+        ixx="9.5353E-05"
+        ixy="-3.5005E-08"
+        ixz="-9.1096E-06"
+        iyy="6.6853E-05"
+        iyz="7.5168E-07"
+        izz="9.5174E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/Body.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/Body.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="R_ARM_1">
+    <inertial>
+      <origin
+        xyz="-1.41270283091089E-09 0.00456865100998955 0.00915593369616417"
+        rpy="0 0 0" />
+      <mass
+        value="0.0042561997534057" />
+      <inertia
+        ixx="4.75526787509663E-07"
+        ixy="-5.17770577555126E-14"
+        ixz="-2.75755836924939E-14"
+        iyy="1.10650237204247E-06"
+        iyz="-1.26621947092055E-07"
+        izz="1.10384151673514E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_ARM_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_ARM_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_1"
+    type="continuous">
+    <origin
+      xyz="0 0 -0.038998"
+      rpy="-3.1416 0 -3.1416" />
+    <parent
+      link="Body" />
+    <child
+      link="R_ARM_1" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="R_ARM_2">
+    <inertial>
+      <origin
+        xyz="-5.46980825606703E-05 0.0120458330772934 0.00097049234653049"
+        rpy="0 0 0" />
+      <mass
+        value="0.0230012005288787" />
+      <inertia
+        ixx="3.19855855058083E-06"
+        ixy="-6.2294589265436E-08"
+        ixz="2.12827266525489E-13"
+        iyy="2.79006394276285E-06"
+        iyz="2.84313451256825E-07"
+        izz="4.1527174201124E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_ARM_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_ARM_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_3"
+    type="continuous">
+    <origin
+      xyz="0 0.012 0.018002"
+      rpy="1.5708 0 0" />
+    <parent
+      link="R_ARM_1" />
+    <child
+      link="R_ARM_2" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="R_ARM_3">
+    <inertial>
+      <origin
+        xyz="0.00017860925519204 0.019998592601371 0.0012870653720527"
+        rpy="0 0 0" />
+      <mass
+        value="0.0261581629564249" />
+      <inertia
+        ixx="2.36571031389844E-06"
+        ixy="-5.5645222058886E-08"
+        ixz="2.36320882971384E-13"
+        iyy="1.96473201193679E-06"
+        iyz="1.32989095115652E-08"
+        izz="2.73594377881704E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_ARM_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_ARM_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_5"
+    type="continuous">
+    <origin
+      xyz="0 0.045 0"
+      rpy="0 0 0" />
+    <parent
+      link="R_ARM_2" />
+    <child
+      link="R_ARM_3" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="L_ARM_1">
+    <inertial>
+      <origin
+        xyz="-1.41270208260944E-09 0.00456865100998909 0.00915593369616431"
+        rpy="0 0 0" />
+      <mass
+        value="0.00425619975340609" />
+      <inertia
+        ixx="4.75526787509678E-07"
+        ixy="-5.17770412284393E-14"
+        ixz="-2.75755877226572E-14"
+        iyy="1.1065023720425E-06"
+        iyz="-1.26621947092053E-07"
+        izz="1.10384151673518E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_ARM_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_ARM_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_2"
+    type="continuous">
+    <origin
+      xyz="0 0 0.038998"
+      rpy="0 0 0" />
+    <parent
+      link="Body" />
+    <child
+      link="L_ARM_1" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="L_ARM_2">
+    <inertial>
+      <origin
+        xyz="5.46978612398653E-05 0.0120458330772935 0.000970490232161888"
+        rpy="0 0 0" />
+      <mass
+        value="0.0230012005288788" />
+      <inertia
+        ixx="3.19855855058084E-06"
+        ixy="6.22944868971599E-08"
+        ixz="2.12827267566888E-13"
+        iyy="2.79006394276285E-06"
+        iyz="2.84312896323333E-07"
+        izz="4.15271742011241E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_ARM_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_ARM_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_4"
+    type="continuous">
+    <origin
+      xyz="0 0.012 0.018002"
+      rpy="1.5708 0 0" />
+    <parent
+      link="L_ARM_1" />
+    <child
+      link="L_ARM_2" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="L_ARM_3">
+    <inertial>
+      <origin
+        xyz="-0.000178609255192013 0.0199985926013709 0.00128706351286216"
+        rpy="0 0 0" />
+      <mass
+        value="0.026158162956425" />
+      <inertia
+        ixx="2.36571031389844E-06"
+        ixy="5.56452220588877E-08"
+        ixz="2.36320882687753E-13"
+        iyy="1.96473201193679E-06"
+        iyz="1.32983545780728E-08"
+        izz="2.73594377881704E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_ARM_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_ARM_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_6"
+    type="continuous">
+    <origin
+      xyz="0 0.045 0"
+      rpy="0 0 0" />
+    <parent
+      link="L_ARM_2" />
+    <child
+      link="L_ARM_3" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="R_LEG_1">
+    <inertial>
+      <origin
+        xyz="-0.00122067250788752 6.32144396902727E-05 0.0135315848690105"
+        rpy="0 0 0" />
+      <mass
+        value="0.0199023992993582" />
+      <inertia
+        ixx="1.60303748122172E-06"
+        ixy="-6.22945380812975E-08"
+        ixz="2.77466746785823E-13"
+        iyy="2.15851329852161E-06"
+        iyz="2.36320882509393E-13"
+        izz="2.4687856445552E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_LEG_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_LEG_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_7"
+    type="continuous">
+    <origin
+      xyz="0 0.072 -0.024"
+      rpy="1.5708 0 1.5708" />
+    <parent
+      link="Body" />
+    <child
+      link="R_LEG_1" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="R_LEG_2">
+    <inertial>
+      <origin
+        xyz="0.0329541669028194 3.44330516718373E-05 0.000971421032520396"
+        rpy="0 0 0" />
+      <mass
+        value="0.0230012005288788" />
+      <inertia
+        ixx="2.79006395445455E-06"
+        ixy="-5.63476714674394E-08"
+        ixz="-2.85551014557258E-07"
+        iyy="3.19897408156339E-06"
+        iyz="-1.99075350695764E-08"
+        izz="4.15230187743816E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_LEG_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_LEG_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_9"
+    type="continuous">
+    <origin
+      xyz="0.006 0 0.015"
+      rpy="-0.02087 0 0" />
+    <parent
+      link="R_LEG_1" />
+    <child
+      link="R_LEG_2" />
+    <axis
+      xyz="0 0.99978 0.020869" />
+  </joint>
+  <link
+    name="R_LEG_3">
+    <inertial>
+      <origin
+        xyz="0.017899745166101 5.03561475850844E-09 0.00688303209754427"
+        rpy="0 0 0" />
+      <mass
+        value="0.00898936103979292" />
+      <inertia
+        ixx="2.97044041191103E-06"
+        ixy="-3.9180621018994E-13"
+        ixz="4.51182757180514E-07"
+        iyy="3.47626399724035E-06"
+        iyz="-2.88931236036204E-13"
+        izz="4.72558607476253E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_LEG_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_LEG_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_11"
+    type="continuous">
+    <origin
+      xyz="0.045 0 0"
+      rpy="0.02087 0 0" />
+    <parent
+      link="R_LEG_2" />
+    <child
+      link="R_LEG_3" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="R_LEG_4">
+    <inertial>
+      <origin
+        xyz="-0.00622990861915076 6.42923681114169E-05 -0.00175974572544711"
+        rpy="0 0 0" />
+      <mass
+        value="0.0195687148748515" />
+      <inertia
+        ixx="1.57200312090151E-06"
+        ixy="-6.22945380812993E-08"
+        ixz="2.77466746831035E-13"
+        iyy="2.25015128902117E-06"
+        iyz="2.36320883094076E-13"
+        izz="2.57130700251407E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_LEG_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_LEG_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_13"
+    type="continuous">
+    <origin
+      xyz="0.042 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="R_LEG_3" />
+    <child
+      link="R_LEG_4" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="R_LEG_5">
+    <inertial>
+      <origin
+        xyz="0.0122476213713948 -0.00800871393403307 -0.0210614114822717"
+        rpy="0 0 0" />
+      <mass
+        value="0.0365288623421758" />
+      <inertia
+        ixx="2.06601022349224E-05"
+        ixy="6.84109502811076E-14"
+        ixz="-1.52663372444367E-06"
+        iyy="1.66434196036713E-05"
+        iyz="-6.22949019507228E-08"
+        izz="6.87373955773588E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_LEG_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/R_LEG_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_15"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="R_LEG_4" />
+    <child
+      link="R_LEG_5" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="L_LEG_1">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_LEG_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_LEG_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_8"
+    type="continuous">
+    <origin
+      xyz="0 0.072 0.024"
+      rpy="1.5633 0 1.5708" />
+    <parent
+      link="Body" />
+    <child
+      link="L_LEG_1" />
+    <axis
+      xyz="0 0.007529 -0.99997" />
+  </joint>
+  <link
+    name="L_LEG_2">
+    <inertial>
+      <origin
+        xyz="-0.0009704923465302 -0.0329541669227067 -0.00205469808256117"
+        rpy="0 0 0" />
+      <mass
+        value="0.0230012005288788" />
+      <inertia
+        ixx="4.1527174201124E-06"
+        ixy="-2.84313451256824E-07"
+        ixz="-2.12827266441703E-13"
+        iyy="2.79006394276285E-06"
+        iyz="-6.22945892654347E-08"
+        izz="3.19855855058084E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_LEG_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_LEG_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_10"
+    type="continuous">
+    <origin
+      xyz="0.006 0.001887 0.015015"
+      rpy="0 1.5633 1.5708" />
+    <parent
+      link="L_LEG_1" />
+    <child
+      link="L_LEG_2" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="L_LEG_3">
+    <inertial>
+      <origin
+        xyz="0.0178997451915608 -0.00199999473652824 0.0068830320975428"
+        rpy="0 0 0" />
+      <mass
+        value="0.00898936103979377" />
+      <inertia
+        ixx="2.9704404119114E-06"
+        ixy="-3.98245154372277E-13"
+        ixz="4.51182757180571E-07"
+        iyy="3.47626399724056E-06"
+        iyz="-2.83187815807375E-13"
+        izz="4.72558607476268E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_LEG_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_LEG_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_12"
+    type="continuous">
+    <origin
+      xyz="0 -0.045 0"
+      rpy="1.5708 0 -1.5708" />
+    <parent
+      link="L_LEG_2" />
+    <child
+      link="L_LEG_3" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="L_LEG_4">
+    <inertial>
+      <origin
+        xyz="-0.0062299086191506 -0.00206429236811201 -0.00175974324020416"
+        rpy="0 0 0" />
+      <mass
+        value="0.0195687148748515" />
+      <inertia
+        ixx="1.57200312090151E-06"
+        ixy="6.22945380812881E-08"
+        ixz="-2.77466742885213E-13"
+        iyy="2.25015128902117E-06"
+        iyz="2.36320883083079E-13"
+        izz="2.57130700251407E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_LEG_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_LEG_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_14"
+    type="continuous">
+    <origin
+      xyz="0.042 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="L_LEG_3" />
+    <child
+      link="L_LEG_4" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="L_LEG_5">
+    <inertial>
+      <origin
+        xyz="0.0122476231275176 0.00570968842078225 -0.0211444346145496"
+        rpy="0 0 0" />
+      <mass
+        value="0.0365288623421764" />
+      <inertia
+        ixx="2.06601022849607E-05"
+        ixy="-2.16309049620909E-08"
+        ixz="-1.52648071828746E-06"
+        iyy="1.66432233486565E-05"
+        iyz="-7.61437907077103E-08"
+        izz="6.87393576271403E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_LEG_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://UPGRADE_MINI_CAD/meshes/L_LEG_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_16"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="0.0141695019227082 0 0" />
+    <parent
+      link="L_LEG_4" />
+    <child
+      link="L_LEG_5" />
+    <axis
+      xyz="0 0.0141690277810197 0.999899614287225" />
+  </joint>
+</robot>

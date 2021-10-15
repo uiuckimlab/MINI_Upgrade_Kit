@@ -1,0 +1,2290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="01/18/21||12:42:50" using="Simscape Multibody Link Version 7.2" from="SolidWorks 28.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="MINI_CAD" uid="MINI_CAD" version="506">
+<AssemblyFile name="MINI_CAD.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Upgraded_Body-1" uid="Upgraded_Body-1" entityUid="Upgraded_Body" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Copy of Upgraded Body^Upgraded_Body-1" uid="Copy of Upgraded Body^Upgraded_Body-1" entityUid="Copy of Upgraded Body^Upgraded_Body" rigid="true">
+<Transform>
+<Rotation>0.94592806012942166 0.32437648660127871 0 -0.32437648660127871 0.94592806012942166 0 0 0 1</Rotation>
+<Translation>0.023472813017696187 0.0035105324805314864 0.0061990421317091688</Translation>
+</Transform>
+<Instance name="m2x6-4" uid="m2x6-4" entityUid="m2x6*:*91290A013">
+<Transform>
+<Rotation>-0.92372802134706822 -0.38304900806323777 0 -0.38304900806323777 0.92372802134706811 0 0 0 -1</Rotation>
+<Translation>-0.017306307141140551 -0.043475073127009989 0.012804791314723521</Translation>
+</Transform>
+</Instance>
+<Instance name="m2x6-2" uid="m2x6-2" entityUid="m2x6*:*91290A013">
+<Transform>
+<Rotation>0.48285972490241913 -0.8756977138642994 0 -0.8756977138642994 -0.48285972490241913 0 0 0 -1</Rotation>
+<Translation>-0.041553639711687088 -0.010978166917136496 0.011706362751051934</Translation>
+</Transform>
+</Instance>
+<Instance name="u2d2-1" uid="u2d2-1" entityUid="u2d2*:*Default">
+<Transform>
+<Rotation>0.32437648660127893 0 0.94592806012942143 -0.94592806012942143 -1.0157494413361762e-16 0.32437648660127893 1.0906370006125863e-16 -1 0</Rotation>
+<Translation>-0.042307437544875898 -0.022976451745672612 0.0088009578682908332</Translation>
+</Transform>
+</Instance>
+<Instance name="Upgrade_Body_cover_v2-1" uid="Upgrade_Body_cover_v2-1" grounded="true" entityUid="Upgrade_Body_cover_v2*:*Default">
+<Transform>
+<Rotation>-0.32437648660127855 0 0.94592806012942154 0.94592806012942154 1.0914856018501843e-16 0.32437648660127855 -1.0099587177628533e-16 1 0</Rotation>
+<Translation>-0.021064858291475516 -0.010934739796659522 -0.0061990421317091688</Translation>
+</Transform>
+</Instance>
+<Instance name="orangePiLite_2-1" uid="orangePiLite_2-1" entityUid="orangePiLite_2*:*Default">
+<Transform>
+<Rotation>0 -0.94592806012942154 0.32437648660127855 2.5255247323806327e-16 -0.32437648660127855 -0.94592806012942154 1 0 2.6940306774755687e-16</Rotation>
+<Translation>-0.059491809511900084 -0.021924284716996569 -0.025625665464536918</Translation>
+</Transform>
+</Instance>
+<Instance name="VoltageRegulator-1" uid="VoltageRegulator-1" entityUid="VoltageRegulator*:*Default">
+<Transform>
+<Rotation>0.32437648660127855 0.94592806012942166 1.0015822831901115e-16 -0.94592806012942166 0.32437648660127855 0 0 -1.0320126087773894e-16 0.99999999999999989</Rotation>
+<Translation>-0.056951373723702868 -0.013841664655080846 0.016690362751051929</Translation>
+</Transform>
+</Instance>
+<Instance name="m2x6-1" uid="m2x6-1" entityUid="m2x6*:*91290A013">
+<Transform>
+<Rotation>0.99998151149868775 -6.340054123643586e-06 0.0060808404521112145 -6.3400541236435216e-06 0.99999782587644037 0.0020852343265607243 -0.0060808404521112119 -0.0020852343265607238 0.99997933737512767</Rotation>
+<Translation>-0.0035062503406011469 -0.012842284904306759 0.010278154064137537</Translation>
+</Transform>
+</Instance>
+<Instance name="m2x6-3" uid="m2x6-3" entityUid="m2x6*:*91290A013">
+<Transform>
+<Rotation>-0.2914075339342368 -0.95657967391418208 0.0060808404521112179 0.95659897530549898 -0.29140015827427623 0.0020852343265607243 -0.0002227349019502862 0.0064245787382638947 0.99997933737512756</Rotation>
+<Translation>-0.02242442063605633 -0.019329680586939124 0.010406722836085791</Translation>
+</Transform>
+</Instance>
+<Instance name="PowerBoard-1" uid="PowerBoard-1" entityUid="PowerBoard" rigid="true">
+<Transform>
+<Rotation>-0.32437648660127949 0 0.94592806012942132 0.94592806012942143 2.3161324009975189e-16 0.32437648660127943 -2.1683864888239774e-16 0.99999999999999989 0</Rotation>
+<Translation>-0.057783303533583061 -0.056209421657696525 -0.00023555827721505329</Translation>
+</Transform>
+<Instance name="3pin Molex-3" uid="3pin Molex-3" entityUid="3pin Molex*:*Default">
+<Transform>
+<Rotation>-1.1102230246251588e-16 0 0.99999999999999989 0 1 0 -0.99999999999999989 0 -1.1102230246251588e-16</Rotation>
+<Translation>0.0072409917246909865 0.021790349591938582 0.036419049912908952</Translation>
+</Transform>
+</Instance>
+<Instance name="PowerBoardBase-1" uid="PowerBoardBase-1" grounded="true" entityUid="PowerBoardBase*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0069159917246907898 0.017340349591938583 0.02941904991290898</Translation>
+</Transform>
+</Instance>
+<Instance name="BatteryConnector-1" uid="BatteryConnector-1" entityUid="BatteryConnector*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 0.99999999999999978 0 -0.99999999999999978 0</Rotation>
+<Translation>0.0039159917246910994 0.025090349591938583 0.044419049912908973</Translation>
+</Transform>
+</Instance>
+<Instance name="BatteryConnector-2" uid="BatteryConnector-2" entityUid="BatteryConnector*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 0.99999999999999978 0 -0.99999999999999978 0</Rotation>
+<Translation>0.0099159917246910978 0.025090349591938583 0.044419049912908966</Translation>
+</Transform>
+</Instance>
+<Instance name="3pin Molex-1" uid="3pin Molex-1" entityUid="3pin Molex*:*Default">
+<Transform>
+<Rotation>-1.1102230246251588e-16 0 0.99999999999999989 0 1 0 -0.99999999999999989 0 -1.1102230246251588e-16</Rotation>
+<Translation>0.01124099172469099 0.021790349591938579 0.036419049912908959</Translation>
+</Transform>
+</Instance>
+<Instance name="3pin Molex-2" uid="3pin Molex-2" entityUid="3pin Molex*:*Default">
+<Transform>
+<Rotation>-1.1102230246251558e-16 0 1 0 0.99999999999999978 0 -0.99999999999999978 0 -1.1102230246251553e-16</Rotation>
+<Translation>0.0032409917246909968 0.021790349591938582 0.036419049912908973</Translation>
+</Transform>
+</Instance>
+<Instance name="3pin Molex-5" visible="false" uid="3pin Molex-5" entityUid="3pin Molex*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 0.99999999999999978 0 0.99999999999999978 0 0</Rotation>
+<Translation>0.0025909917246909123 0.021790349591938582 0.028419049912908969</Translation>
+</Transform>
+</Instance>
+<Instance name="CUI_DEVICES_PJ-102B-1" uid="CUI_DEVICES_PJ-102B-1" entityUid="CUI_DEVICES_PJ-102B*:*Default">
+<Transform>
+<Rotation>-1 0 -1.0204255741040038e-16 0 1 2.7755575615628914e-16 1.0204255741040038e-16 2.7755575615628914e-16 -1</Rotation>
+<Translation>-0.0030840082753092121 0.025540349591938582 0.018419049912908995</Translation>
+</Transform>
+</Instance>
+<Instance name="3pin Molex-4" uid="3pin Molex-4" entityUid="3pin Molex*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 0.99999999999999978 0 0.99999999999999978 0 0</Rotation>
+<Translation>0.010590991724690954 0.021790349591938579 0.028419049912908972</Translation>
+</Transform>
+</Instance>
+<Instance name="3pin Molex-6" uid="3pin Molex-6" entityUid="3pin Molex*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 0.99999999999999978 0 0.99999999999999978 0 0</Rotation>
+<Translation>0.0065909917246909124 0.021790349591938582 0.028419049912908969</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="m2x6-5" uid="m2x6-5" entityUid="m2x6*:*91290A013">
+<Transform>
+<Rotation>0.69962988397331272 -0.7145054411629691 0 -0.7145054411629691 -0.69962988397331272 0 0 0 -0.99999999999999989</Rotation>
+<Translation>-0.047090460490125899 -0.036774012816572769 0.012804791314723521</Translation>
+</Transform>
+</Instance>
+<Instance name="m2x6-7" uid="m2x6-7" entityUid="m2x6*:*91290A013">
+<Transform>
+<Rotation>0.99998151149868764 -6.3400541236990972e-06 0.0060808404521112578 -6.3400541235324993e-06 0.99999782587644015 0.0020852343265607425 -0.006080840452111257 -0.0020852343265607412 0.99997933737512756</Rotation>
+<Translation>-0.0084497479964046347 0.001573658732065622 0.010278154064137571</Translation>
+</Transform>
+</Instance>
+<Instance name="m2x6-8" uid="m2x6-8" entityUid="m2x6*:*91290A013">
+<Transform>
+<Rotation>0.94823455752638042 -0.31757081716170033 0 -0.31757081716170033 -0.94823455752638042 0 0 0 -1</Rotation>
+<Translation>-0.02249633092676101 -0.028340224164939233 0.012804791314723524</Translation>
+</Transform>
+</Instance>
+<Instance name="m2x6-6" uid="m2x6-6" entityUid="m2x6*:*91290A013">
+<Transform>
+<Rotation>0.41237909882169532 -0.91101233737804377 0 -0.91101233737804377 -0.41237909882169532 0 0 0 -1</Rotation>
+<Translation>-0.04976309289484681 -0.027756349370355586 0.011706362751051934</Translation>
+</Transform>
+</Instance>
+<Instance name="bno055-1" uid="bno055-1" entityUid="bno055*:*Default">
+<Transform>
+<Rotation>0.94590851477275906 0.0060808404521112596 0.32437648660127866 0.3243697841316186 0.0020852343265607425 -0.94592806012942166 -0.0064284385974122714 0.99997933737512756 1.0337867714649287e-16</Rotation>
+<Translation>-0.015473569358943147 -0.0088905223333961142 0.0043425624258608799</Translation>
+</Transform>
+</Instance>
+<Instance name="Rivet-1" uid="Rivet-1" entityUid="Rivet" rigid="true">
+<Transform>
+<Rotation>-0.92372802134706811 0 0.38304900806323783 -0.38304900806323783 -1.0914856018501846e-16 -0.92372802134706811 0 -1 0</Rotation>
+<Translation>-0.055644797383719052 0.0056819477448704012 0.01597774213724917</Translation>
+</Transform>
+<Instance name="River_01-1" uid="River_01-1" grounded="true" entityUid="River_01*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0033289483092811857 0.001241062539209227 0.010246542901086945</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="0.25"/>
+<Emissive r="0" g="0" b="0" a="0.25"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="River_02-1" uid="River_02-1" entityUid="River_02*:*Default">
+<Transform>
+<Rotation>-0.31704899424289334 0 -0.94840916025182409 0 -1 0 -0.94840916025182409 0 0.31704899424289323</Rotation>
+<Translation>0.0033289483092811857 0.009081062539209225 0.010246542901086939</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Rivet-2" uid="Rivet-2" entityUid="Rivet" rigid="true">
+<Transform>
+<Rotation>0.27918115950081746 0 0.96023844964663829 -0.96023844964663829 -1.0914856018501843e-16 0.27918115950081746 1.0287143576747884e-16 -1 0</Rotation>
+<Translation>-0.0542122795212071 -0.00082976112788945428 0.015977742137249177</Translation>
+</Transform>
+<Instance name="River_01-1" uid="River_01-1" grounded="true" entityUid="River_01*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0033289483092811857 0.0012410625392092235 0.010246542901086939</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="0.25"/>
+<Emissive r="0" g="0" b="0" a="0.25"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="River_02-1" uid="River_02-1" entityUid="River_02*:*Default">
+<Transform>
+<Rotation>-0.31704899424289318 0 -0.94840916025182398 0 -1 0 -0.94840916025182398 0 0.31704899424289318</Rotation>
+<Translation>0.0033289483092811822 0.0090810625392092215 0.010246542901086932</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Rivet-3" uid="Rivet-3" entityUid="Rivet" rigid="true">
+<Transform>
+<Rotation>0.36680533840809626 0 0.93029771778464687 -0.93029771778464687 -1.0914856018501824e-16 0.36680533840809626 0 -1 0</Rotation>
+<Translation>-0.051924511174218153 -0.045448773549597081 0.01597774213724918</Translation>
+</Transform>
+<Instance name="River_01-1" uid="River_01-1" grounded="true" entityUid="River_01*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0033289483092811822 0.0012410625392092235 0.010246542901086932</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="0.25"/>
+<Emissive r="0" g="0" b="0" a="0.25"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="River_02-1" uid="River_02-1" entityUid="River_02*:*Default">
+<Transform>
+<Rotation>-0.31704899424289323 0 -0.94840916025182398 0 -1 0 -0.94840916025182398 0 0.31704899424289323</Rotation>
+<Translation>0.0033289483092811788 0.0090810625392092233 0.010246542901086928</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="m2x6-9" uid="m2x6-9" entityUid="m2x6*:*91290A013">
+<Transform>
+<Rotation>0.99998151149868764 -6.3400541236990972e-06 0.0060808404521112578 -6.3400541235324993e-06 0.99999782587644015 0.0020852343265607425 -0.006080840452111257 -0.0020852343265607412 0.99997933737512756</Rotation>
+<Translation>-0.027367918291859805 -0.0049137369505667513 0.010406722836085798</Translation>
+</Transform>
+</Instance>
+<Instance name="Rivet-4" uid="Rivet-4" entityUid="Rivet" rigid="true">
+<Transform>
+<Rotation>-0.99777682652539146 0 -0.06664386280010548 0.06664386280010548 -1.0914856018501915e-16 -0.99777682652539146 0 -1 1.0936833869454056e-16</Rotation>
+<Translation>-0.025815546286495076 -0.030892773004472473 0.01597774213724918</Translation>
+</Transform>
+<Instance name="River_01-1" uid="River_01-1" grounded="true" entityUid="River_01*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0033289483092811822 0.0012410625392092235 0.010246542901086935</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="0.25"/>
+<Emissive r="0" g="0" b="0" a="0.25"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="River_02-1" uid="River_02-1" entityUid="River_02*:*Default">
+<Transform>
+<Rotation>-0.31704899424289312 0 -0.94840916025182409 0 -1 0 -0.94840916025182409 0 0.31704899424289312</Rotation>
+<Translation>0.0033289483092811805 0.0090810625392092215 0.010246542901086925</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="sheild-1" uid="sheild-1" entityUid="sheild*:*Default">
+<Transform>
+<Rotation>-0.32437648660128998 -0.94592806012941755 0 0.94592806012941755 -0.32437648660128998 3.4544156038382433e-16 -3.5079605231694559e-16 0 0.99999999999999978</Rotation>
+<Translation>-0.06629335036692377 -0.02644443865441469 -0.056449042087913584</Translation>
+</Transform>
+</Instance>
+<Instance name="m2.5x6-8" uid="m2.5x6-8" entityUid="m2.5x6*:*91290A101">
+<Transform>
+<Rotation>0 -0.32437648660127816 0.94592806012942166 -6.6613381477509383e-16 0.94592806012942166 0.32437648660127816 -1 -6.4812117940040364e-16 -1.6356859084331688e-16</Rotation>
+<Translation>-0.062794640730139795 -0.0030442456877426884 -0.051949042087913573</Translation>
+</Transform>
+</Instance>
+<Instance name="m2.5x6-5" uid="m2.5x6-5" entityUid="m2.5x6*:*91290A101">
+<Transform>
+<Rotation>0.28091827778705003 -0.16218824330063913 0.94592806012942154 -0.8191977302246134 0.47296403006471033 0.32437648660127866 -0.49999999999999944 -0.86602540378443893 0</Rotation>
+<Translation>-0.049170828292886062 -0.042773224213178432 -0.05194904208791358</Translation>
+</Transform>
+</Instance>
+<Instance name="m2.5x6-6" uid="m2.5x6-6" entityUid="m2.5x6*:*91290A101">
+<Transform>
+<Rotation>0 -0.32437648660127855 0.94592806012942166 -2.7755575615628914e-16 0.94592806012942166 0.32437648660127855 -1 -2.8055429020226104e-16 0</Rotation>
+<Translation>-0.049170828292886069 -0.042773224213178397 0.011050957912086441</Translation>
+</Transform>
+</Instance>
+<Instance name="m2.5x6-7" uid="m2.5x6-7" entityUid="m2.5x6*:*91290A101">
+<Transform>
+<Rotation>-1.6653345369377351e-16 -0.32437648660127932 0.94592806012942143 -2.4980018054066022e-16 0.94592806012942143 0.32437648660127932 -1 -1.8227346358804291e-16 -2.3855797171534865e-16</Rotation>
+<Translation>-0.062794640730139822 -0.003044245687742678 0.01105095791208642</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="XL-320_v2-3" uid="XL-320_v2-3" entityUid="XL-320_v2*:*Default">
+<Transform>
+<Rotation>-1.0548358964209844e-15 -8.3626352178057923e-16 1 -1.0000000000000004 3.4849518538626976e-16 -9.9932474518972476e-16 -3.3201531236448881e-16 -1 -8.0850794616495091e-16</Rotation>
+<Translation>-0.018000000000000009 -0.023999999999999917 -0.072000000000000022</Translation>
+</Transform>
+</Instance>
+<Instance name="XL-320_v2-4" uid="XL-320_v2-4" entityUid="XL-320_v2*:*Default">
+<Transform>
+<Rotation>-1.523850086384679e-15 -1.0668569236898039e-15 0.99999999999999978 -1 -1.6653345369377405e-16 -1.6903835400784536e-15 1.6653345369377348e-16 -1 -1.0668569236898025e-15</Rotation>
+<Translation>-0.017999999999999964 0.023999999999999605 -0.0720000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="Head_v2-1" uid="Head_v2-1" entityUid="Head_v2" rigid="true">
+<Transform>
+<Rotation>2.9837243786801082e-16 0 1.0000000000000002 1.0000000000000002 0 -2.9837243786801082e-16 0 1 0</Rotation>
+<Translation>-0.03864699774835513 -0.0011123251108691549 0.0052648788245901849</Translation>
+</Transform>
+<Instance name="Camera-1" uid="Camera-1" entityUid="Camera*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 1.7069861746392282e-16 0 -1.7069861746392285e-16 -1 4.7878367936959876e-16 0 4.7878367936959896e-16 1.0000000000000002</Rotation>
+<Translation>0.00091232511086915659 0.030735121175409792 0.077646997748355151</Translation>
+</Transform>
+</Instance>
+<Instance name="XL-320_v2-2" uid="XL-320_v2-2" grounded="true" entityUid="XL-320_v2*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 -1 0 -1 0</Rotation>
+<Translation>0.0011123251108691554 0.030735121175409819 0.044646997748355163</Translation>
+</Transform>
+</Instance>
+<Instance name="Camera_Frame-1" uid="Camera_Frame-1" entityUid="Camera_Frame*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00091232511086915562 0.030735121175409805 0.068646997748355185</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="XL-320_v2-1" uid="XL-320_v2-1" grounded="true" entityUid="XL-320_v2*:*Default">
+<Transform>
+<Rotation>0 -1 0 0 0 0.99999999999999967 -1 0 0</Rotation>
+<Translation>0 0.024 0</Translation>
+</Transform>
+</Instance>
+<Instance name="XL-320_v2-2" uid="XL-320_v2-2" grounded="true" entityUid="XL-320_v2*:*Default">
+<Transform>
+<Rotation>0 -1.0000000000000002 0 0 0 -1 1.0000000000000002 0 1.110223024625154e-16</Rotation>
+<Translation>0 -0.024000000000000042 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Body_v2-1" uid="Body_v2-1" grounded="true" entityUid="Body_v2" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.015000000000000013 0 -0.042000000000000044</Translation>
+</Transform>
+<Instance name="SPU-5_v2-3" uid="SPU-5_v2-3" entityUid="SPU-5_v2*:*Default">
+<Transform>
+<Rotation>0 1.1375859119143717e-16 1.0000000000000002 -5.0112634699879899e-16 -1 1.1375859119143714e-16 1.0000000000000002 -5.0112634699879899e-16 0</Rotation>
+<Translation>0.0090000000000000011 -0.024000000000000032 0.041999999999999989</Translation>
+</Transform>
+</Instance>
+<Instance name="Darwin-mini_frm_body_v2-1" uid="Darwin-mini_frm_body_v2-1" entityUid="Darwin-mini_frm_body_v2*:*Default">
+<Transform>
+<Rotation>-1.1375859119143707e-16 0 1.0000000000000002 1 0 1.1375859119143712e-16 0 1.0000000000000002 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SPU-5_v2-4" uid="SPU-5_v2-4" entityUid="SPU-5_v2*:*Default">
+<Transform>
+<Rotation>0 -1.1375859119143707e-16 1.0000000000000002 3.3447044758406576e-16 1 1.1375859119143712e-16 -1.0000000000000002 3.3447044758406571e-16 0</Rotation>
+<Translation>0.0089999999999999976 0.023999999999999987 0.042000000000000016</Translation>
+</Transform>
+</Instance>
+<Instance name="Darwin-mini_bat_box_v2-1" uid="Darwin-mini_bat_box_v2-1" entityUid="Darwin-mini_bat_box_v2" rigid="true">
+<Transform>
+<Rotation>-1.0000000000000002 1.1375859119143699e-16 0 -1.1375859119143697e-16 -1 0 0 0 1.0000000000000002</Rotation>
+<Translation>-0.0029999999999999992 0 0.012000000000000004</Translation>
+</Transform>
+<Instance name="Darwin-mini_bat_box.stp-1" uid="Darwin-mini_bat_box.stp-1" grounded="true" entityUid="Darwin-mini_bat_box.stp" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="DARWIN-MINI_LB-040.stp-1" uid="DARWIN-MINI_LB-040.stp-1" grounded="true" entityUid="DARWIN-MINI_LB-040.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0 -9.9999999999999991e-05 -0.0015999999999999973</Translation>
+</Transform>
+</Instance>
+<Instance name="DARWIN-MINI_LBB-040.stp-1" uid="DARWIN-MINI_LBB-040.stp-1" grounded="true" entityUid="DARWIN-MINI_LBB-040.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="SPU-5_v2-6" uid="SPU-5_v2-6" entityUid="SPU-5_v2*:*Default">
+<Transform>
+<Rotation>-6.0775600518671763e-16 1.0000000000000002 0 -1 -6.0775600518671881e-16 0 0 0 1.0000000000000002</Rotation>
+<Translation>-0.033000000000000022 -0.023999999999999966 -0.0059999999999999984</Translation>
+</Transform>
+</Instance>
+<Instance name="SPU-5_v2-5" uid="SPU-5_v2-5" entityUid="SPU-5_v2*:*Default">
+<Transform>
+<Rotation>-2.1530512581402264e-16 1.0000000000000002 0 -1 -2.153051258140222e-16 0 0 0 1.0000000000000002</Rotation>
+<Translation>-0.032999999999999974 0.024000000000000021 -0.0060000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="Darwin-mini_bat_box_v2-2" uid="Darwin-mini_bat_box_v2-2" entityUid="Darwin-mini_bat_box_v2" rigid="true">
+<Transform>
+<Rotation>0 -1.1649487992035831e-16 1.0000000000000002 0 1 1.1649487992035833e-16 -1.0000000000000002 0 0</Rotation>
+<Translation>-0.036000000000000004 0 0.012000000000000004</Translation>
+</Transform>
+<Instance name="Darwin-mini_bat_box.stp-1" uid="Darwin-mini_bat_box.stp-1" grounded="true" entityUid="Darwin-mini_bat_box.stp" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="DARWIN-MINI_LB-040.stp-1" uid="DARWIN-MINI_LB-040.stp-1" grounded="true" entityUid="DARWIN-MINI_LB-040.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0 -0.00010000000000000002 -0.0016000000000000007</Translation>
+</Transform>
+</Instance>
+<Instance name="DARWIN-MINI_LBB-040.stp-1" uid="DARWIN-MINI_LBB-040.stp-1" grounded="true" entityUid="DARWIN-MINI_LBB-040.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="L_arm_01-1" uid="L_arm_01-1" entityUid="L_arm_01" rigid="true">
+<Transform>
+<Rotation>0.99999999999999978 0 -1.2608611391516206e-16 1.2608611391516221e-16 -1.259427949776086e-16 1 0 -0.99999999999999978 -1.2594279497760835e-16</Rotation>
+<Translation>0 0.056999999999999988 0</Translation>
+</Transform>
+<Instance name="Darwin-mini_frm_ext_01-1" uid="Darwin-mini_frm_ext_01-1" entityUid="Darwin-mini_frm_ext_01*:*Default">
+<Transform>
+<Rotation>0.99999999999999978 1.2608611391516221e-16 0 0 -1.259427949776086e-16 -0.99999999999999978 -1.2608611391516206e-16 1 -1.2594279497760835e-16</Rotation>
+<Translation>0 0.011999999999999993 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="R_arm_01-1" uid="R_arm_01-1" entityUid="R_arm_01" rigid="true">
+<Transform>
+<Rotation>-0.99999999999999989 -2.0816681711721685e-16 -1.8104028139189993e-16 1.8104028139189996e-16 0 -0.99999999999999978 2.0816681711721685e-16 -0.99999999999999989 0</Rotation>
+<Translation>0 -0.057000000000000058 0</Translation>
+</Transform>
+<Instance name="Darwin-mini_frm_ext_01-1" uid="Darwin-mini_frm_ext_01-1" entityUid="Darwin-mini_frm_ext_01*:*Default">
+<Transform>
+<Rotation>1 0 1.6653345369377373e-16 1.6653345369377373e-16 -1.1102230246251562e-16 -1 0 1 -1.1102230246251562e-16</Rotation>
+<Translation>0 0.011999999999999997 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="L_arm_03-1" uid="L_arm_03-1" entityUid="L_arm_03" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.10199999999999999 -0.012000000000000011</Translation>
+</Transform>
+<Instance name="hands_L-1" uid="hands_L-1" entityUid="hands_L" rigid="true">
+<Transform>
+<Rotation>-1.0814718958932179e-16 0 -1 2.4980018054066017e-16 -1 0 -1 -2.4980018054066017e-16 1.0814718958932178e-16</Rotation>
+<Translation>0.019000000000000003 0.032970733151987772 -0.00098657876033952582</Translation>
+</Transform>
+<Instance name="SPU-5-1" uid="SPU-5-1" entityUid="SPU-5*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.00098657876033952409 0.0089707331519877642 0.019000000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="SPL-2b2-10" uid="SPL-2b2-10" entityUid="SPL-2b2*:*Default">
+<Transform>
+<Rotation>0 1 0 1 0 0 0 0 -1</Rotation>
+<Translation>-0.0099865787603395217 -0.021029266848012235 0.028000000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="SPD-9" uid="SPD-9" entityUid="SPD*:*3b5">
+<Transform>
+<Rotation>0 -1.0000000000000002 0 0 0 1 -1.0000000000000002 0 0</Rotation>
+<Translation>0.0080134212396604822 -0.0090292668480122518 0.028000000000000011</Translation>
+</Transform>
+</Instance>
+<Instance name="SP0-5-1" uid="SP0-5-1" grounded="true" entityUid="SP0-5*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.00098657876033952235 0.0014707331519877576 0.019</Translation>
+</Transform>
+</Instance>
+<Instance name="SPL-2b2-1" uid="SPL-2b2-1" entityUid="SPL-2b2*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 0 0 -1 0 0 0 -1.0000000000000002</Rotation>
+<Translation>0.0020134212396604803 -0.0030292668480122464 0.028000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="SPL-2b2-9" uid="SPL-2b2-9" entityUid="SPL-2b2*:*Default">
+<Transform>
+<Rotation>0 1 0 1 0 0 0 0 -1</Rotation>
+<Translation>-0.0099865787603395234 -0.021029266848012235 0.016</Translation>
+</Transform>
+</Instance>
+<Instance name="SPD-2" uid="SPD-2" entityUid="SPD*:*3b5">
+<Transform>
+<Rotation>0 -1.0000000000000002 0 0 0 1 -1.0000000000000002 0 0</Rotation>
+<Translation>0.0080134212396604856 -0.0030292668480122464 0.028000000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="SPL-2b2-3" uid="SPL-2b2-3" entityUid="SPL-2b2*:*Default">
+<Transform>
+<Rotation>0 0 1.0000000000000002 0 -1 0 1.0000000000000002 0 0</Rotation>
+<Translation>0.0080134212396604822 -0.0030292668480122464 0.016</Translation>
+</Transform>
+</Instance>
+<Instance name="SPD-1" uid="SPD-1" entityUid="SPD*:*3b3">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.003986578760339525 0.0059707331519877616 0.010000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="SPD-4" uid="SPD-4" entityUid="SPD*:*4b5">
+<Transform>
+<Rotation>0 0 -1 1.0000000000000002 -1.3723590165505403e-16 0 -1.3723590165505405e-16 -1.0000000000000002 0</Rotation>
+<Translation>-0.012986578760339523 -0.02702926684801224 0.034000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="SPL-2b2-8" uid="SPL-2b2-8" entityUid="SPL-2b2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0020134212396604786 -0.039029266848012223 0.016</Translation>
+</Transform>
+</Instance>
+<Instance name="SPL-2b2-7" uid="SPL-2b2-7" entityUid="SPL-2b2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0020134212396604786 -0.039029266848012223 0.028000000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="SPL-2b2-2" uid="SPL-2b2-2" entityUid="SPL-2b2*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 -3.3306690738754696e-16 0 -1 0 -3.3306690738754696e-16 0 -1.0000000000000002</Rotation>
+<Translation>0.0020134212396604803 -0.0030292668480122464 0.015999999999999993</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="XL-320-4" uid="XL-320-4" entityUid="XL-320*:*Default">
+<Transform>
+<Rotation>0 0 1 1.1102230246251565e-16 -1 0 1 1.1102230246251565e-16 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SP0-5-1" uid="SP0-5-1" entityUid="SP0-5*:*Default">
+<Transform>
+<Rotation>0 1 0 -0.70710678118654791 -1.1102230246251565e-16 0.70710678118654735 0.70710678118654746 -2.7755575615628914e-16 0.70710678118654779</Rotation>
+<Translation>-0.0135 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="L_leg_04-1" uid="L_leg_04-1" entityUid="L_leg_04" rigid="true">
+<Transform>
+<Rotation>-1.5265566588595902e-15 1.5163145450549406e-15 1.0000000000000002 -3.2094905232261022e-15 1 -1.5163145450549453e-15 -1.0000000000000002 -3.2094905232261038e-15 -1.5265566588595902e-15</Rotation>
+<Translation>0.014999999999999881 0.023999999999999567 -0.16500000000000023</Translation>
+</Transform>
+<Instance name="Darwin-mini_plate_cnvt_3x5-2" uid="Darwin-mini_plate_cnvt_3x5-2" entityUid="Darwin-mini_plate_cnvt_3x5*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 -2.9619372166866141e-16 -2.6090241078691175e-15 -2.6090241078691167e-15 0 1 -2.9619372166866614e-16 1.0000000000000002 0</Rotation>
+<Translation>0 0 -0.016500000000000015</Translation>
+</Transform>
+</Instance>
+<Instance name="SP0-5-3" uid="SP0-5-3" entityUid="SP0-5*:*Default">
+<Transform>
+<Rotation>0.70710678118646586 -2.8989398751371515e-15 0.70710678118662906 2.0457012395374237e-15 1 2.0540188483857019e-15 -0.70710678118662906 0 0.70710678118646586</Rotation>
+<Translation>0 0.013499999999999995 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SPD-1" uid="SPD-1" entityUid="SPD*:*3b7">
+<Transform>
+<Rotation>-1.0000000000000002 3.4694469519536106e-15 0 -3.4694469519536099e-15 -1 0 0 0 1.0000000000000002</Rotation>
+<Translation>0.0089999999999999802 0.0090000000000000253 -0.01500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="XL-320-2" uid="XL-320-2" entityUid="XL-320*:*Default">
+<Transform>
+<Rotation>3.661820885499488e-16 1.0000000000000002 3.6637359812630166e-15 0 3.6637359812630158e-15 -1 -1.0000000000000002 3.6618208854995354e-16 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="L_leg_02-1" uid="L_leg_02-1" entityUid="L_leg_02" rigid="true">
+<Transform>
+<Rotation>-1 1.4085954624931674e-15 1.4275551113992473e-15 1.4275551113992471e-15 1.4981986143199676e-16 1 1.3981871216373065e-15 1 -1.4981986143199878e-16</Rotation>
+<Translation>0.015000000000000027 0.023999999999999574 -0.078000000000000291</Translation>
+</Transform>
+<Instance name="SP0-5-2" uid="SP0-5-2" entityUid="SP0-5*:*Default">
+<Transform>
+<Rotation>0.92403089899484014 1.8127879841752528e-16 -0.3823177967382469 -0.38231779673824695 0 -0.92403089899484003 0 1 0</Rotation>
+<Translation>0 -0.045000000000000026 0.013500000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="Darwin-mini_frm_ext_02-1" uid="Darwin-mini_frm_ext_02-1" entityUid="Darwin-mini_frm_ext_02*:*Default">
+<Transform>
+<Rotation>-1.1312405646254091e-16 1.0061396160665501e-16 -1 0 1.0000000000000002 2.3245294578089195e-16 1 0 -1.1312405646254007e-16</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="XL-320-3" uid="XL-320-3" entityUid="XL-320*:*Default">
+<Transform>
+<Rotation>1 -1.6653345369377348e-16 1.1312405646254071e-16 -1.7694179454963393e-16 -1 0 1.1312405646254027e-16 0 -1</Rotation>
+<Translation>0 -0.045000000000000012 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="R_arm_02-1" uid="R_arm_02-1" entityUid="R_arm_02" rigid="true">
+<Transform>
+<Rotation>-1 -1.2468324983583294e-16 5.863365348801607e-16 1.2468324983583299e-16 -1 0 5.863365348801607e-16 0 1</Rotation>
+<Translation>0 -0.057000000000000044 -0.011999999999999997</Translation>
+</Transform>
+<Instance name="Darwin-mini_frm_ext_02-1" uid="Darwin-mini_frm_ext_02-1" entityUid="Darwin-mini_frm_ext_02*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.044999999999999478 1.1518563880485999e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="XL-320-2" uid="XL-320-2" entityUid="XL-320*:*Default">
+<Transform>
+<Rotation>-1.2224550428246029e-16 0 -0.99999999999999978 0 -0.99999999999999989 0 -0.99999999999999989 0 1.2224550428246019e-16</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SP0-5-2" uid="SP0-5-2" entityUid="SP0-5*:*Default">
+<Transform>
+<Rotation>2.5978681687064831e-16 -1 2.5978681687064979e-16 0.70710678118654735 0 -0.70710678118654791 0.70710678118654791 3.6739403974420761e-16 0.70710678118654735</Rotation>
+<Translation>0.013499999999999986 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="R_arm_03-1" uid="R_arm_03-1" entityUid="R_arm_03" rigid="true">
+<Transform>
+<Rotation>-1 0 1.0298119011359502e-16 0 -1 0 1.0298119011359499e-16 0 1</Rotation>
+<Translation>0 -0.10199999999999952 -0.01199999999999885</Translation>
+</Transform>
+<Instance name="hands_R-1" uid="hands_R-1" entityUid="hands_R" rigid="true">
+<Transform>
+<Rotation>-9.7112762081807509e-16 -2.3592239273284572e-16 -1 -1.2480037951361101e-15 -1 2.3592239273284591e-16 -1 1.2480037951361099e-15 9.7112762081807449e-16</Rotation>
+<Translation>0.019000000000000006 0.032970733151987744 -0.00098657876033956399</Translation>
+</Transform>
+<Instance name="SPD-2" uid="SPD-2" entityUid="SPD*:*3b5">
+<Transform>
+<Rotation>0 -1.0000000000000002 0 0 0 1 -1.0000000000000002 0 0</Rotation>
+<Translation>0.0080134212396604856 -0.0030292668480122464 0.028000000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="SP0-5-1" uid="SP0-5-1" grounded="true" entityUid="SP0-5*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.00098657876033952235 0.0014707331519877576 0.018999999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="SPU-5-1" uid="SPU-5-1" entityUid="SPU-5*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.00098657876033952409 0.0089707331519877365 0.019000000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="SPD-1" uid="SPD-1" entityUid="SPD*:*3b3">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.003986578760339525 0.0059707331519877616 0.0099999999999999985</Translation>
+</Transform>
+</Instance>
+<Instance name="SPD-4" uid="SPD-4" entityUid="SPD*:*4b5">
+<Transform>
+<Rotation>0 0 -1 1.0000000000000002 -1.3723590165505511e-16 0 -1.3723590165505297e-16 -1.0000000000000002 0</Rotation>
+<Translation>-0.012986578760339519 -0.02702926684801224 0.028000000000000008</Translation>
+</Transform>
+</Instance>
+<Instance name="SPL-2b2-7" uid="SPL-2b2-7" entityUid="SPL-2b2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0020134212396604803 -0.039029266848012251 0.022000000000000006</Translation>
+</Transform>
+</Instance>
+<Instance name="SPL-2b2-9" uid="SPL-2b2-9" entityUid="SPL-2b2*:*Default">
+<Transform>
+<Rotation>0 1 0 1 0 0 0 0 -1</Rotation>
+<Translation>-0.0099865787603395217 -0.021029266848012235 0.010000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="SPL-2b2-10" uid="SPL-2b2-10" entityUid="SPL-2b2*:*Default">
+<Transform>
+<Rotation>0 1 0 1 0 0 0 0 -1</Rotation>
+<Translation>-0.0099865787603395182 -0.021029266848012235 0.022000000000000006</Translation>
+</Transform>
+</Instance>
+<Instance name="SPL-2b2-2" uid="SPL-2b2-2" entityUid="SPL-2b2*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 -3.3306690738754726e-16 0 -1 0 -3.3306690738754667e-16 0 -1.0000000000000002</Rotation>
+<Translation>0.0020134212396604786 -0.0030292668480122464 0.0099999999999999985</Translation>
+</Transform>
+</Instance>
+<Instance name="SPL-2b2-1" uid="SPL-2b2-1" entityUid="SPL-2b2*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 0 0 -1 0 0 0 -1.0000000000000002</Rotation>
+<Translation>0.0020134212396604838 -0.0030292668480122464 0.022000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="SPD-9" uid="SPD-9" entityUid="SPD*:*3b5">
+<Transform>
+<Rotation>0 -1.0000000000000002 0 0 0 1 -1.0000000000000002 0 0</Rotation>
+<Translation>0.0080134212396604822 -0.0090292668480122518 0.028000000000000008</Translation>
+</Transform>
+</Instance>
+<Instance name="SPL-2b2-8" uid="SPL-2b2-8" entityUid="SPL-2b2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0020134212396604786 -0.039029266848012251 0.010000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="SPL-2b2-11" uid="SPL-2b2-11" entityUid="SPL-2b2*:*Default">
+<Transform>
+<Rotation>3.7816971776294365e-16 0 -1.0000000000000002 0 -1 0 -1.0000000000000002 0 -3.7816971776294414e-16</Rotation>
+<Translation>0.0080134212396604856 -0.0030292668480122464 0.021999999999999999</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="SP0-5-1" uid="SP0-5-1" entityUid="SP0-5*:*Default">
+<Transform>
+<Rotation>-1.0038739392005808e-16 -0.99999999999999989 0 -0.61983245916838514 0 -0.78473417318304173 0.78473417318304184 -1.1963566674046862e-16 -0.61983245916838503</Rotation>
+<Translation>0.013499999999999996 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="XL-320-1" uid="XL-320-1" entityUid="XL-320*:*Default">
+<Transform>
+<Rotation>1.2246467991473522e-16 0 -0.99999999999999989 0 -0.99999999999999989 0 -1 0 -1.2246467991473515e-16</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="L_leg_01-1" uid="L_leg_01-1" entityUid="L_leg_01" rigid="true">
+<Transform>
+<Rotation>-1.3588616756304977e-15 1.5417695831867224e-15 0.99999999999999989 -2.886579864025407e-15 1 -1.541769583186726e-15 -0.99999999999999989 -2.8310687127941492e-15 -1.3588616756304934e-15</Rotation>
+<Translation>0.015000000000000036 0.023999999999999577 -0.072000000000000272</Translation>
+</Transform>
+<Instance name="SP0-5-1" uid="SP0-5-1" entityUid="SP0-5*:*Default">
+<Transform>
+<Rotation>0.70710678118654924 -2.6916554498809077e-15 0.70710678118654569 1.8225771342188982e-15 1 1.9839985082381365e-15 -0.70710678118654569 -1.141421481974605e-16 0.70710678118654924</Rotation>
+<Translation>0.0059999999999999776 0.013500000000000012 0</Translation>
+</Transform>
+</Instance>
+<Instance name="XL-320-4" uid="XL-320-4" entityUid="XL-320*:*Default">
+<Transform>
+<Rotation>1.7969860362934983e-16 0.99999999999999978 2.8865798640254078e-15 1.5433424723455613e-16 2.7755575615628882e-15 -1 -0.99999999999999978 1.7969860362935043e-16 -1.5433424723455591e-16</Rotation>
+<Translation>0.0060000000000000192 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SPU-5-1" uid="SPU-5-1" entityUid="SPU-5*:*Default">
+<Transform>
+<Rotation>5.4008958162502047e-16 2.8310687127941484e-15 -0.99999999999999978 1.5433424723455083e-16 -1 -2.7200464103316284e-15 -0.99999999999999978 -1.5433424723454947e-16 -5.4008958162502126e-16</Rotation>
+<Translation>-0.017999999999999981 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SPD-3" uid="SPD-3" entityUid="SPD*:*3b5">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0089999999999999941 -0.0090000000000000149 -0.014999999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="Darwin-mini_plate_cnvt_3x5-3" uid="Darwin-mini_plate_cnvt_3x5-3" entityUid="Darwin-mini_plate_cnvt_3x5*:*Default">
+<Transform>
+<Rotation>0.99999999999999978 2.9072090609186371e-16 -9.9920072216264286e-16 8.8817841970012287e-16 1.5433424723455603e-16 1 2.9072090609186411e-16 -0.99999999999999978 1.543342472345561e-16</Rotation>
+<Translation>0 0 -0.016499999999999997</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="R_Leg_01-2" uid="R_Leg_01-2" entityUid="R_Leg_01" rigid="true">
+<Transform>
+<Rotation>-1.9452887498728091e-15 5.5523527479683034e-16 1 -4.3021142204224816e-16 1.0000000000000002 -5.5523527479683202e-16 -1.0000000000000002 -4.3021142204224816e-16 -1.9452887498728087e-15</Rotation>
+<Translation>0.014999999999999947 -0.023999999999999938 -0.072000000000000064</Translation>
+</Transform>
+<Instance name="Darwin-mini_plate_cnvt_3x5-3" uid="Darwin-mini_plate_cnvt_3x5-3" entityUid="Darwin-mini_plate_cnvt_3x5*:*Default">
+<Transform>
+<Rotation>-1 1.1367809724592393e-15 8.680448664413257e-16 -8.6804486644132521e-16 4.440892098500637e-16 -1 -1.1367809724592397e-15 -1 -4.4408920985006271e-16</Rotation>
+<Translation>0 0 -0.016499999999999959</Translation>
+</Transform>
+</Instance>
+<Instance name="SPU-5-1" uid="SPU-5-1" entityUid="SPU-5*:*Default">
+<Transform>
+<Rotation>-1.9452887498728091e-15 -4.3021142204224816e-16 -1.0000000000000002 5.5523527479683034e-16 1.0000000000000002 -4.3021142204224816e-16 1 -5.5523527479683202e-16 -1.9452887498728087e-15</Rotation>
+<Translation>-0.017999999999999995 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="XL-320-8" uid="XL-320-8" entityUid="XL-320*:*Default">
+<Transform>
+<Rotation>-1.126926449595736e-15 1 -7.5702256397880985e-16 -4.440892098500637e-16 7.5702256397880936e-16 1 1 1.1269264495957364e-15 4.4408920985006281e-16</Rotation>
+<Translation>0.0060000000000000192 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SPD-3" uid="SPD-3" entityUid="SPD*:*3b5">
+<Transform>
+<Rotation>-1.0000000000000002 0 -2.6837122707274812e-15 0 -1.0000000000000002 -2.2204460492503338e-16 -2.6837122707274808e-15 -2.2204460492503239e-16 1</Rotation>
+<Translation>0.0090000000000000219 0.009000000000000008 -0.014999999999999951</Translation>
+</Transform>
+</Instance>
+<Instance name="SP0-5-1" uid="SP0-5-1" entityUid="SP0-5*:*Default">
+<Transform>
+<Rotation>0.21202885032982416 9.5596204931438214e-16 0.97726340698289371 0 -1 9.8903126229714244e-16 0.97726340698289371 -2.5847677310219102e-16 -0.21202885032982416</Rotation>
+<Translation>0.0060000000000000192 -0.013499999999999995 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="L_arm_02-1" uid="L_arm_02-1" entityUid="L_arm_02" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.056999999999999995 -0.012000000000000016</Translation>
+</Transform>
+<Instance name="Darwin-mini_frm_ext_02-1" uid="Darwin-mini_frm_ext_02-1" entityUid="Darwin-mini_frm_ext_02*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.044999999999999998 0</Translation>
+</Transform>
+</Instance>
+<Instance name="XL-320-5" uid="XL-320-5" entityUid="XL-320*:*Default">
+<Transform>
+<Rotation>2.1377834135800423e-16 0 1 -3.3306690738754686e-16 -1 0 0.99999999999999989 1.6653345369377358e-16 -2.1377834135800428e-16</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SP0-5-2" uid="SP0-5-2" entityUid="SP0-5*:*Default">
+<Transform>
+<Rotation>-3.463820743005577e-16 1 -3.4638312325153383e-16 0.70710678118654757 0 -0.70710678118654768 -0.70710678118654791 -4.8985896895912232e-16 -0.70710678118654735</Rotation>
+<Translation>-0.013499999999999998 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="L_leg_05-1" uid="L_leg_05-1" entityUid="L_leg_05" rigid="true">
+<Transform>
+<Rotation>-1.4420397901195184e-15 1.3770372968786358e-15 1.0000000000000002 1.1657341758564144e-15 1 -1.3591350005730695e-15 -0.99999999999999978 1.1102230246251565e-15 -1.4138878704642947e-15</Rotation>
+<Translation>0.01499999999999988 0.023999999999999598 -0.16500000000000026</Translation>
+</Transform>
+<Instance name="XL-320-1" uid="XL-320-1" entityUid="XL-320*:*Default">
+<Transform>
+<Rotation>-0.99999999999999978 0 0 0 -1 0 0 0 1.0000000000000002</Rotation>
+<Translation>0 0 -0.033000000000000015</Translation>
+</Transform>
+</Instance>
+<Instance name="Darwin-mini_cvr_foot-1" uid="Darwin-mini_cvr_foot-1" entityUid="Darwin-mini_cvr_foot*:*Default">
+<Transform>
+<Rotation>5.9674487573602056e-16 -0.99999999999999978 -3.7787970079921154e-16 1 5.4123372450476441e-16 3.7944865037789251e-16 -3.6154635407232738e-16 -3.4972778114398604e-16 1.0000000000000002</Rotation>
+<Translation>0.029999999999999971 0.0089999999999999837 -0.032999999999999988</Translation>
+</Transform>
+</Instance>
+<Instance name="Darwin-mini_cvr_sole-1" uid="Darwin-mini_cvr_sole-1" entityUid="Darwin-mini_cvr_sole*:*Default">
+<Transform>
+<Rotation>7.0776717819853611e-16 -0.99999999999999978 -3.7787970079921174e-16 1 6.5225602696727996e-16 3.9360349301215304e-16 -3.7570119670658796e-16 -3.4972778114398624e-16 1.0000000000000002</Rotation>
+<Translation>0.029999999999999971 0.0089999999999999976 -0.0029999999999999818</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="R_Leg_02-2" uid="R_Leg_02-2" entityUid="R_Leg_02" rigid="true">
+<Transform>
+<Rotation>-1.6150275561344074e-15 5.3696082688338954e-16 0.99999999999999978 -3.9275488743273223e-16 1 -5.3690880129627162e-16 -0.99999999999999978 -3.5723062645534599e-16 -1.6150275561344074e-15</Rotation>
+<Translation>0.014999999999999946 -0.023999999999999928 -0.078000000000000111</Translation>
+</Transform>
+<Instance name="XL-320-7" uid="XL-320-7" entityUid="XL-320*:*Default">
+<Transform>
+<Rotation>-6.6613381477509373e-16 0.99999999999999978 -7.6031693503722236e-16 -1.7294928860969208e-16 7.2479267405983528e-16 1 0.99999999999999978 6.6613381477509392e-16 1.7300131419680994e-16</Rotation>
+<Translation>0.044999999999999984 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Darwin-mini_frm_ext_02-1" uid="Darwin-mini_frm_ext_02-1" entityUid="Darwin-mini_frm_ext_02*:*Default">
+<Transform>
+<Rotation>-8.3273540791007893e-16 -1 -7.9633312886471457e-16 0.99999999999999989 -8.3273540791007883e-16 -2.7760778174340808e-16 2.7760778174340744e-16 -7.9633312886471486e-16 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SP0-5-2" uid="SP0-5-2" entityUid="SP0-5*:*Default">
+<Transform>
+<Rotation>-0.70710678118654724 8.808873898925019e-16 0.70710678118654746 -6.8415583726756689e-16 -0.99999999999999989 5.6160705644184555e-16 0.70710678118654757 0 0.70710678118654713</Rotation>
+<Translation>0.044999999999999984 -0.013499999999999967 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="R_Leg_03-2" uid="R_Leg_03-2" entityUid="R_Leg_03" rigid="true">
+<Transform>
+<Rotation>-1.8873791418627661e-15 8.4835420576950926e-16 1 -6.4325640807156915e-16 1 -8.4835420576951064e-16 -1 -6.4325640807157073e-16 -1.8873791418627661e-15</Rotation>
+<Translation>0.014999999999999895 -0.023999999999999942 -0.1230000000000001</Translation>
+</Transform>
+<Instance name="Darwin-mini_cvr_calf-1" uid="Darwin-mini_cvr_calf-1" entityUid="Darwin-mini_cvr_calf*:*Default">
+<Transform>
+<Rotation>-9.6562144620572265e-16 -1.0738888850210038e-15 1 1.0000000000000002 -3.8857805861880484e-16 9.6562144620572364e-16 -1.1102230246251627e-16 1 1.073888885021005e-15</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="L_leg_03-1" uid="L_leg_03-1" entityUid="L_leg_03" rigid="true">
+<Transform>
+<Rotation>-1.4536982728685643e-15 1.7762992390583449e-15 0.99999999999999989 -2.3889553139526555e-15 1 -1.776299239058348e-15 -0.99999999999999989 -2.3889553139526587e-15 -1.4536982728685643e-15</Rotation>
+<Translation>0.014999999999999954 0.023999999999999563 -0.12300000000000029</Translation>
+</Transform>
+<Instance name="Darwin-mini_cvr_calf-1" uid="Darwin-mini_cvr_calf-1" entityUid="Darwin-mini_cvr_calf*:*Default">
+<Transform>
+<Rotation>-2.6137477151902322e-15 -2.7755575615628485e-16 1 1 2.9912908478632909e-16 2.6137477151902322e-15 -2.9912908478632983e-16 1 2.7755575615628406e-16</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="R_Leg_05-2" uid="R_Leg_05-2" entityUid="R_Leg_05" rigid="true">
+<Transform>
+<Rotation>8.8817841970012523e-16 8.8539204558002339e-16 1 -8.3975078460130747e-16 0.99999999999999989 -8.853920455800227e-16 -1.0000000000000002 -8.3975078460130659e-16 8.8817841970012523e-16</Rotation>
+<Translation>0.014999999999999861 -0.023999999999999931 -0.16500000000000004</Translation>
+</Transform>
+<Instance name="XL-320-5" uid="XL-320-5" entityUid="XL-320*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.033000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="Darwin-mini_cvr_foot-1" uid="Darwin-mini_cvr_foot-1" entityUid="Darwin-mini_cvr_foot*:*Default">
+<Transform>
+<Rotation>-8.4722818472960224e-16 -1 -2.6140524782880073e-15 1 -8.4722818472960135e-16 -3.3306690738754824e-16 3.3306690738754603e-16 -2.6140524782880076e-15 1</Rotation>
+<Translation>0.030000000000000138 -0.0089999999999999213 -0.032999999999999953</Translation>
+</Transform>
+</Instance>
+<Instance name="Darwin-mini_cvr_sole-1" uid="Darwin-mini_cvr_sole-1" entityUid="Darwin-mini_cvr_sole*:*Default">
+<Transform>
+<Rotation>-8.4722818472960619e-16 -1 -2.6140524782880069e-15 0.99999999999999989 -8.472281847296054e-16 -3.3306690738755027e-16 3.3306690738754805e-16 -2.6140524782880076e-15 0.99999999999999989</Rotation>
+<Translation>0.030000000000000054 -0.008999999999999956 -0.0029999999999999541</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="R_Leg_04-2" uid="R_Leg_04-2" entityUid="R_Leg_04" rigid="true">
+<Transform>
+<Rotation>-1.8873791418627661e-15 2.807904614123731e-16 1 -7.07746568398768e-16 1 -2.8079046141237478e-16 -1 -7.077465683987686e-16 -1.8873791418627661e-15</Rotation>
+<Translation>0.014999999999999847 -0.02399999999999991 -0.16500000000000009</Translation>
+</Transform>
+<Instance name="XL-320-6" uid="XL-320-6" entityUid="XL-320*:*Default">
+<Transform>
+<Rotation>-1.101416269034549e-15 1 -9.7906716890384274e-16 -3.8857805861880504e-16 9.7906716890384431e-16 1.0000000000000002 1 1.1014162690345482e-15 -1.1102230246251647e-16</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SP0-5-3" uid="SP0-5-3" entityUid="SP0-5*:*Default">
+<Transform>
+<Rotation>-0.70710678118646275 1.1751076694421672e-15 0.70710678118663228 -8.7584552444041426e-16 -1 6.8155649513126144e-16 0.70710678118663239 3.3306690738754765e-16 0.70710678118646275</Rotation>
+<Translation>0 -0.013499999999999995 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SPD-1" uid="SPD-1" entityUid="SPD*:*3b7">
+<Transform>
+<Rotation>-1 0 -2.6837122707274808e-15 0 -1.0000000000000002 -6.1062266354383866e-16 -2.6837122707274812e-15 -2.2204460492503313e-16 1</Rotation>
+<Translation>0.009000000000000008 0.009000000000000008 -0.01499999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="Darwin-mini_plate_cnvt_3x5-2" uid="Darwin-mini_plate_cnvt_3x5-2" entityUid="Darwin-mini_plate_cnvt_3x5*:*Default">
+<Transform>
+<Rotation>-1 -2.4974139683281728e-15 -1.423156378753905e-15 -1.423156378753905e-15 -6.1062266354383827e-16 1 -2.4974139683281732e-15 1 2.2204460492502926e-16</Rotation>
+<Translation>0 0 -0.01649999999999999</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>L_arm_02-1</Uid>
+<Uid>Darwin-mini_frm_ext_02-1</Uid>
+</InstancePath>
+<Position>0.018000000000000002 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>L_arm_03-1</Uid>
+<Uid>XL-320-4</Uid>
+</InstancePath>
+<Position>0 0 0.012</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_arm_02-1</Uid>
+<Uid>Darwin-mini_frm_ext_02-1</Uid>
+</InstancePath>
+<Position>0.014999999999999999 -0.014999999999999999 -0.010799999999999999</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_arm_03-1</Uid>
+<Uid>XL-320-4</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>L_arm_01-1</Uid>
+<Uid>Darwin-mini_frm_ext_01-1</Uid>
+</InstancePath>
+<Position>0.018000000000000002 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>L_arm_02-1</Uid>
+<Uid>XL-320-5</Uid>
+</InstancePath>
+<Position>0 0 0.012</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_arm_01-1</Uid>
+<Uid>Darwin-mini_frm_ext_01-1</Uid>
+</InstancePath>
+<Position>0.014999999999999999 -0.014999999999999999 -0.012001866954940002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_arm_02-1</Uid>
+<Uid>XL-320-5</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>R_arm_01-1</Uid>
+<Uid>Darwin-mini_frm_ext_01-1</Uid>
+</InstancePath>
+<Position>0.017999999999999999 0 0</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>R_arm_02-1</Uid>
+<Uid>XL-320-2</Uid>
+</InstancePath>
+<Position>0 0 0.011999999999999993</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>R_arm_01-1</Uid>
+<Uid>Darwin-mini_frm_ext_01-1</Uid>
+</InstancePath>
+<Position>-0.014999999999999998 0.0090000000000000011 -0.012001866954939997</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>R_arm_02-1</Uid>
+<Uid>XL-320-2</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999993</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>R_arm_02-1</Uid>
+<Uid>Darwin-mini_frm_ext_02-1</Uid>
+</InstancePath>
+<Position>0.018000000000000002 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>R_arm_03-1</Uid>
+<Uid>XL-320-1</Uid>
+</InstancePath>
+<Position>0 0 0.011999999999999999</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>R_arm_02-1</Uid>
+<Uid>Darwin-mini_frm_ext_02-1</Uid>
+</InstancePath>
+<Position>-0.014999999999999999 0.009000000000000008 -0.010799999999999999</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>R_arm_03-1</Uid>
+<Uid>XL-320-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999998</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>L_leg_01-1</Uid>
+<Uid>SP0-5-1</Uid>
+</InstancePath>
+<Position>0 0.0015000000000000013 0</Position>
+<Axis>0 1 -1.4917299347595314e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>L_leg_02-1</Uid>
+<Uid>Darwin-mini_frm_ext_02-1</Uid>
+</InstancePath>
+<Position>0.014999999999999999 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_leg_01-1</Uid>
+<Uid>SP0-5-1</Uid>
+</InstancePath>
+<Position>0 0.0015000000000000013 0</Position>
+<Axis>0 1 -1.4917299347595314e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_leg_02-1</Uid>
+<Uid>Darwin-mini_frm_ext_02-1</Uid>
+</InstancePath>
+<Position>0.015000000000000006 -0.015000000000000013 -0.010800000000000004</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>L_leg_02-1</Uid>
+<Uid>XL-320-3</Uid>
+</InstancePath>
+<Position>0 0 0.012000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>L_leg_03-1</Uid>
+<Uid>Darwin-mini_cvr_calf-1</Uid>
+</InstancePath>
+<Position>0.021600000006079999 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_leg_02-1</Uid>
+<Uid>XL-320-3</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_leg_03-1</Uid>
+<Uid>Darwin-mini_cvr_calf-1</Uid>
+</InstancePath>
+<Position>-0.014999999999999998 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>L_leg_03-1</Uid>
+<Uid>Darwin-mini_cvr_calf-1</Uid>
+</InstancePath>
+<Position>-0.014999999999999998 0 0.041999999999999982</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>L_leg_04-1</Uid>
+<Uid>XL-320-2</Uid>
+</InstancePath>
+<Position>0 0 0.014799999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_leg_03-1</Uid>
+<Uid>Darwin-mini_cvr_calf-1</Uid>
+</InstancePath>
+<Position>-0.014999999999999998 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_leg_04-1</Uid>
+<Uid>XL-320-2</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999996</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>L_leg_04-1</Uid>
+<Uid>Darwin-mini_plate_cnvt_3x5-2</Uid>
+</InstancePath>
+<Position>0 -0.0015000000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>L_leg_05-1</Uid>
+<Uid>XL-320-1</Uid>
+</InstancePath>
+<Position>0 0 0.012</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_leg_04-1</Uid>
+<Uid>Darwin-mini_plate_cnvt_3x5-2</Uid>
+</InstancePath>
+<Position>0 -0.0015000000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_leg_05-1</Uid>
+<Uid>XL-320-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>R_Leg_01-2</Uid>
+<Uid>SP0-5-1</Uid>
+</InstancePath>
+<Position>0 0.0015000000000000013 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>R_Leg_02-2</Uid>
+<Uid>Darwin-mini_frm_ext_02-1</Uid>
+</InstancePath>
+<Position>0.017999999999999995 0 0</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>R_Leg_01-2</Uid>
+<Uid>SP0-5-1</Uid>
+</InstancePath>
+<Position>0 0.0015000000000000013 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>R_Leg_02-2</Uid>
+<Uid>Darwin-mini_frm_ext_02-1</Uid>
+</InstancePath>
+<Position>-0.014999999999999999 0.0089999999999999941 -0.010799999999999997</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>R_Leg_02-2</Uid>
+<Uid>SP0-5-2</Uid>
+</InstancePath>
+<Position>0 0.0015000000000000013 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>R_Leg_03-2</Uid>
+<Uid>Darwin-mini_cvr_calf-1</Uid>
+</InstancePath>
+<Position>0.021600000006080009 0 0</Position>
+<Axis>1.0000000000000002 -4.9960036108131995e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>R_Leg_02-2</Uid>
+<Uid>SP0-5-2</Uid>
+</InstancePath>
+<Position>0 0.0015000000000000013 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>R_Leg_03-2</Uid>
+<Uid>Darwin-mini_cvr_calf-1</Uid>
+</InstancePath>
+<Position>-0.015000000000000003 0 0</Position>
+<Axis>1.0000000000000002 -4.9960036108131995e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>R_Leg_03-2</Uid>
+<Uid>Darwin-mini_cvr_calf-1</Uid>
+</InstancePath>
+<Position>0.021600000006080009 0 0.04200000000000001</Position>
+<Axis>1.0000000000000002 -4.9960036108131995e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>R_Leg_04-2</Uid>
+<Uid>XL-320-6</Uid>
+</InstancePath>
+<Position>0 0 0.012000000000000005</Position>
+<Axis>-4.9960036108132005e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>R_Leg_03-2</Uid>
+<Uid>Darwin-mini_cvr_calf-1</Uid>
+</InstancePath>
+<Position>0.015000000000000006 0 0</Position>
+<Axis>-1.0000000000000002 4.9960036108131995e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>R_Leg_04-2</Uid>
+<Uid>XL-320-6</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000006</Position>
+<Axis>-4.9960036108132005e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>R_Leg_04-2</Uid>
+<Uid>Darwin-mini_plate_cnvt_3x5-2</Uid>
+</InstancePath>
+<Position>0 -0.00070000000000000032 0</Position>
+<Axis>0 -1 3.8857805861880513e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>R_Leg_05-2</Uid>
+<Uid>XL-320-5</Uid>
+</InstancePath>
+<Position>0 0 0.012</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>R_Leg_04-2</Uid>
+<Uid>Darwin-mini_plate_cnvt_3x5-2</Uid>
+</InstancePath>
+<Position>0 -0.0015000000000000002 0</Position>
+<Axis>0 -1 3.8857805861880513e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>R_Leg_05-2</Uid>
+<Uid>XL-320-5</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Upgraded_Body-1</Uid>
+<Uid>XL-320_v2-2</Uid>
+</InstancePath>
+<Position>0 0 0.012000000000000004</Position>
+<Axis>1.1102230246251542e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>R_arm_01-1</Uid>
+<Uid>Darwin-mini_frm_ext_01-1</Uid>
+</InstancePath>
+<Position>0 -0.017999999999999988 0.011999999999999997</Position>
+<Axis>0 0.99999999999999978 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Upgraded_Body-1</Uid>
+<Uid>XL-320_v2-2</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>1.1102230246251542e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>R_arm_01-1</Uid>
+<Uid>Darwin-mini_frm_ext_01-1</Uid>
+</InstancePath>
+<Position>-0.017999999999999992 -0.017999999999999988 0.020999999999999994</Position>
+<Axis>0 -0.99999999999999978 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Upgraded_Body-1</Uid>
+<Uid>XL-320_v2-1</Uid>
+</InstancePath>
+<Position>0 0 0.014799999999999987</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>L_arm_01-1</Uid>
+<Uid>Darwin-mini_frm_ext_01-1</Uid>
+</InstancePath>
+<Position>0 -0.0172 0.012</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Upgraded_Body-1</Uid>
+<Uid>XL-320_v2-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999986</Position>
+<Axis>0 0 0.99999999999999967</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_arm_01-1</Uid>
+<Uid>Darwin-mini_frm_ext_01-1</Uid>
+</InstancePath>
+<Position>-0.018000000000000002 -0.018000000000000002 0.021000000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Upgraded_Body-1</Uid>
+<Uid>XL-320_v2-3</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>1.5296752628613592e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>R_Leg_01-2</Uid>
+<Uid>Darwin-mini_plate_cnvt_3x5-3</Uid>
+</InstancePath>
+<Position>0 0.00070000000000000032 0</Position>
+<Axis>0 -0.99999999999999978 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Upgraded_Body-1</Uid>
+<Uid>XL-320_v2-3</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>R_Leg_01-2</Uid>
+<Uid>Darwin-mini_plate_cnvt_3x5-3</Uid>
+</InstancePath>
+<Position>0 0.0014999999999999994 0</Position>
+<Axis>0 0.99999999999999978 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Upgraded_Body-1</Uid>
+<Uid>XL-320_v2-4</Uid>
+</InstancePath>
+<Position>0 0 0.01500000000000001</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>L_leg_01-1</Uid>
+<Uid>Darwin-mini_plate_cnvt_3x5-3</Uid>
+</InstancePath>
+<Position>0 0.0014999999999999996 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Upgraded_Body-1</Uid>
+<Uid>XL-320_v2-4</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999994</Position>
+<Axis>1.6653345369377489e-16 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>L_leg_01-1</Uid>
+<Uid>Darwin-mini_plate_cnvt_3x5-3</Uid>
+</InstancePath>
+<Position>0 0.0014999999999999996 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Coincident27">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Upgraded_Body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>MINI_CAD</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Upgraded_Body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MINI_CAD</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Upgraded_Body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MINI_CAD</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Upgraded_Body" uid="Upgraded_Body" version="172">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Upgraded_Body.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Copy of Upgraded Body^Upgraded_Body" uid="Copy of Upgraded Body^Upgraded_Body" version="455">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Upgraded_Body.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="PowerBoard" uid="PowerBoard" version="376">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="PowerBoard.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Rivet" uid="Rivet" version="312">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Rivet.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Head_v2" uid="Head_v2" version="203">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Head_v2.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Body_v2" uid="Body_v2" version="312">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Body_v2.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Darwin-mini_bat_box_v2" uid="Darwin-mini_bat_box_v2" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Darwin-mini_bat_box_v2.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Darwin-mini_bat_box.stp" uid="Darwin-mini_bat_box.stp" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Darwin-mini_bat_box.stp.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="L_arm_01" uid="L_arm_01" version="335">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="L_arm_01.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="R_arm_01" uid="R_arm_01" version="333">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="R_arm_01.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="L_arm_03" uid="L_arm_03" version="349">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="L_arm_03.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="hands_L" uid="hands_L" version="230">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="hands_L.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="L_leg_04" uid="L_leg_04" version="478">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="L_leg_04.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="L_leg_02" uid="L_leg_02" version="479">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="L_leg_02.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="R_arm_02" uid="R_arm_02" version="238">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="R_arm_02.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="R_arm_03" uid="R_arm_03" version="261">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="R_arm_03.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="hands_R" uid="hands_R" version="200">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="hands_R.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="L_leg_01" uid="L_leg_01" version="486">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="L_leg_01.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="R_Leg_01" uid="R_Leg_01" version="510">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="R_Leg_01.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="L_arm_02" uid="L_arm_02" version="328">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="L_arm_02.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="L_leg_05" uid="L_leg_05" version="468">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="L_leg_05.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="R_Leg_02" uid="R_Leg_02" version="494">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="R_Leg_02.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="R_Leg_03" uid="R_Leg_03" version="488">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="R_Leg_03.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="L_leg_03" uid="L_leg_03" version="471">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="L_leg_03.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="R_Leg_05" uid="R_Leg_05" version="489">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="R_Leg_05.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="R_Leg_04" uid="R_Leg_04" version="502">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="R_Leg_04.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="3pin Molex" uid="3pin Molex*:*Default" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="3pin Molex.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.0287659676405528e-05</Mass>
+<CenterOfMass>0 -0.00099307029351121054 -0.00032461436584419254</CenterOfMass>
+<Inertia>2.7161104370628348e-10 5.7013716512290513e-10 6.9205732674399293e-10 3.1187713545259077e-11 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="3pin Molex_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BatteryConnector" uid="BatteryConnector*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BatteryConnector.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.2332065476278612e-05</Mass>
+<CenterOfMass>0 0.00060415622735935704 -0.0037677997388155314</CenterOfMass>
+<Inertia>4.7042192211201822e-10 5.8599572846886712e-10 5.1400483122732447e-10 -1.2744234177059153e-11 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="BatteryConnector_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CUI_DEVICES_PJ-102B" uid="CUI_DEVICES_PJ-102B*:*Default" version="119">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="CUI_DEVICES_PJ-102B.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0010118311812226841</Mass>
+<CenterOfMass>-0.007402516265184074 -0.0019338748199280572 -1.9939390806385425e-05</CenterOfMass>
+<Inertia>1.6357558824111708e-08 2.3096690008004573e-08 2.562728143458978e-08 -8.3601959113616916e-11 -6.6527714864912987e-11 -1.5397573679436451e-10</Inertia>
+</MassProperties>
+<GeometryFile name="CUI_DEVICES_PJ-102B_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0" b="0" a="1"/>
+<Diffuse r="0" g="0" b="0" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Camera" uid="Camera*:*Default" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Camera.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01898</Mass>
+<CenterOfMass>0.00081319103583701272 -0.0032717386008509065 -4.9001895568977708e-05</CenterOfMass>
+<Inertia>1.3078020268406204e-06 8.1923848506389644e-07 1.7486962588688056e-06 -2.5466213432937833e-07 6.3296305135719647e-08 1.357955853680232e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Camera_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Camera_Frame" uid="Camera_Frame*:*Default" version="1426">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Camera_Frame.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0040732615432834563</Mass>
+<CenterOfMass>-5.3522002874997745e-10 0.00016172405512716824 0.0010392978379197989</CenterOfMass>
+<Inertia>2.2993984057281747e-07 5.2768643214060743e-07 6.3062261154042863e-07 -3.4913939739454902e-09 4.1660734111822489e-15 -1.6261839797162926e-14</Inertia>
+</MassProperties>
+<GeometryFile name="Camera_Frame_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="DARWIN-MINI_LB-040.stp" uid="DARWIN-MINI_LB-040.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DARWIN-MINI_LB-040.stp.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.025948894610145403</Mass>
+<CenterOfMass>-3.619774121779982e-07 0.0003757065496295571 1.7220271503269602e-05</CenterOfMass>
+<Inertia>1.0918304863370413e-05 1.0893299803298437e-05 1.5666980285701034e-06 -2.3145647070182775e-08 -2.4395687528928547e-10 8.9367043039508049e-11</Inertia>
+</MassProperties>
+<GeometryFile name="DARWIN-MINI_LB-040.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="DARWIN-MINI_LBB-040.stp" uid="DARWIN-MINI_LBB-040.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DARWIN-MINI_LBB-040.stp.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0069962648471230239</Mass>
+<CenterOfMass>-5.6029529780153769e-05 0.002780842198471314 0.0086013748301113444</CenterOfMass>
+<Inertia>3.7570504720851089e-06 7.5149651346050468e-07 4.0905680712589568e-06 -2.7547947914005128e-08 1.4236367221584235e-09 1.3967058622084381e-08</Inertia>
+</MassProperties>
+<GeometryFile name="DARWIN-MINI_LBB-040.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Darwin-mini_cvr_calf" uid="Darwin-mini_cvr_calf*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Darwin-mini_cvr_calf.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0089893610397926045</Mass>
+<CenterOfMass>5.0356152773285636e-09 0.0068830320975448601 0.017899745166100829</CenterOfMass>
+<Inertia>3.4762639972402582e-06 4.7255860747624595e-06 2.9704404119108744e-06 4.5118275718048598e-07 -3.9180623270235742e-13 -2.8893115769459579e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Darwin-mini_cvr_calf_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Darwin-mini_cvr_foot" uid="Darwin-mini_cvr_foot*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Darwin-mini_cvr_foot.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.013426438790226824</Mass>
+<CenterOfMass>-6.5156504737502625e-09 0.010774510484838799 0.017649675326876071</CenterOfMass>
+<Inertia>1.1244534571536505e-05 1.3258073767586024e-05 3.6302159189483888e-06 1.526633884822437e-06 -4.4461389150298829e-13 5.6470576921641785e-14</Inertia>
+</MassProperties>
+<GeometryFile name="Darwin-mini_cvr_foot_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Darwin-mini_cvr_sole" uid="Darwin-mini_cvr_sole*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Darwin-mini_cvr_sole.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0063599607191342803</Mass>
+<CenterOfMass>-8.1137526780729816e-13 0.00024165080568681473 4.9530452748866204e-13</CenterOfMass>
+<Inertia>3.9046434174627215e-06 5.1546556231586921e-06 1.266122921769849e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Darwin-mini_cvr_sole_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Darwin-mini_frm_body_v2" uid="Darwin-mini_frm_body_v2*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Darwin-mini_frm_body_v2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01765325477434615</Mass>
+<CenterOfMass>1.4394359348762965e-09 0.0087736188747597234 -0.022151583092736234</CenterOfMass>
+<Inertia>1.3959767484660502e-05 1.4750932248117394e-05 1.4528855666031337e-05 -6.332139365070509e-06 -7.3163129404703753e-13 -4.3323164526990571e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Darwin-mini_frm_body_v2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Darwin-mini_frm_ext_01" uid="Darwin-mini_frm_ext_01*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Darwin-mini_frm_ext_01.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.004256197426620578</Mass>
+<CenterOfMass>-1.0645047215515064e-09 -0.0088455930654777245 0.0074313477713067342</CenterOfMass>
+<Inertia>4.7552673068825564e-07 1.1038412200505839e-06 1.1065020854783811e-06 1.2662193292699397e-07 1.2703300409571309e-13 -1.3828563718115496e-14</Inertia>
+</MassProperties>
+<GeometryFile name="Darwin-mini_frm_ext_01_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Darwin-mini_frm_ext_02" uid="Darwin-mini_frm_ext_02*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Darwin-mini_frm_ext_02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0057347414936237207</Mass>
+<CenterOfMass>-1.3983150307748208e-10 -0.016647019575539067 0.0038924971784590743</CenterOfMass>
+<Inertia>1.1975453615048942e-06 1.2836029833679979e-06 1.8931248119794039e-06 2.8431317621153665e-07 -1.2891573658387417e-14 -4.5605304251007343e-14</Inertia>
+</MassProperties>
+<GeometryFile name="Darwin-mini_frm_ext_02_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Darwin-mini_plate_cnvt_3x5" uid="Darwin-mini_plate_cnvt_3x5*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Darwin-mini_plate_cnvt_3x5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0010623059808795327</Mass>
+<CenterOfMass>0 -0.00015867786307677777 0</CenterOfMass>
+<Inertia>3.0546454057598519e-08 9.9833689893838641e-08 7.0641902004200721e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Darwin-mini_plate_cnvt_3x5_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PowerBoardBase" uid="PowerBoardBase*:*Default" version="109">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PowerBoardBase.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0010329500989442045</Mass>
+<CenterOfMass>0 0.00084999999999999995 0</CenterOfMass>
+<Inertia>1.0114593856304333e-07 1.3614425039001731e-07 3.549584945796544e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="PowerBoardBase_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="River_01" uid="River_01*:*Default" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="River_01.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.8665855236867647e-05</Mass>
+<CenterOfMass>0 0.005172084650897954 1.3727468277058803e-15</CenterOfMass>
+<Inertia>6.9517432541906647e-10 2.0301633269222291e-10 6.7966054576359323e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="River_01_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="River_02" uid="River_02*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="River_02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.6166302776434327e-05</Mass>
+<CenterOfMass>0 0.0064524052547959036 0</CenterOfMass>
+<Inertia>5.3582603153878289e-10 6.9564675962384196e-11 5.332140018072882e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="River_02_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SP0-5" uid="SP0-5*:*Default" version="112">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SP0-5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00052399197539025892</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>1.2219386469221967e-08 2.3611969740425546e-08 1.221938646922197e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SP0-5_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SPD" uid="SPD*:*3b3" version="165">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SPD.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00051789826094457436</Mass>
+<CenterOfMass>0.0030000000000000001 0.0090000000000000045 0.0014999999999999985</CenterOfMass>
+<Inertia>1.4046423107536439e-08 1.4046423107536436e-08 2.7422590800445604e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SPD_3b3_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SPD" uid="SPD*:*3b5" version="180">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SPD.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0008789241271210485</Mass>
+<CenterOfMass>0.0089999999999999993 0.0090000000000000011 0.0014999999999999983</CenterOfMass>
+<Inertia>2.4521079175550934e-08 6.4630044978153003e-08 8.8010391257671678e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SPD_3b5_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SPD" uid="SPD*:*3b7" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SPD.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.001239949993297521</Mass>
+<CenterOfMass>0.015000000000000001 0.0090000000000000028 0.0014999999999999989</CenterOfMass>
+<Inertia>3.4995735243565538e-08 1.7849620400148502e-07 2.1188072886761332e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SPD_3b7_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SPD" uid="SPD*:*4b5" version="148">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SPD.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0011797790156014413</Mass>
+<CenterOfMass>0.0089999999999999993 0.012000000000000002 0.0014999999999999987</CenterOfMass>
+<Inertia>5.7127465640176687e-08 8.7799959681890721e-08 1.4339462785819768e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SPD_4b5_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SPL-2b2" uid="SPL-2b2*:*Default" version="168">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SPL-2b2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00060249660841271387</Mass>
+<CenterOfMass>-0.011031725419111856 0.0058411897807388365 0</CenterOfMass>
+<Inertia>2.4117520921905995e-08 1.6868842681603915e-08 2.5873918971254625e-08 0 0 6.649316022409621e-09</Inertia>
+</MassProperties>
+<GeometryFile name="SPL-2b2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SPU-5" uid="SPU-5*:*Default" version="161">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SPU-5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00069471029068313638</Mass>
+<CenterOfMass>0 0 0.001319505907734849</CenterOfMass>
+<Inertia>2.1348979651077991e-08 2.2228168523767968e-08 4.1509016388218966e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SPU-5_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SPU-5_v2" uid="SPU-5_v2*:*Default" version="161">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SPU-5_v2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00069471029068313649</Mass>
+<CenterOfMass>0 0 0.0013195059077348494</CenterOfMass>
+<Inertia>2.1348979651077991e-08 2.2228168523767971e-08 4.1509016388218966e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SPU-5_v2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Upgrade_Body_cover_v2" uid="Upgrade_Body_cover_v2*:*Default" version="18925">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Upgrade_Body_cover_v2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.022972212419555257</Mass>
+<CenterOfMass>-0.00015935456520489266 0.004023141609485908 -0.006664781640599673</CenterOfMass>
+<Inertia>2.4392033260863495e-05 3.062485917160815e-05 2.1016013864380913e-05 -3.5097938794926638e-06 -4.4221035450849728e-08 4.9657375108679717e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Upgrade_Body_cover_v2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="VoltageRegulator" uid="VoltageRegulator*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="VoltageRegulator.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0050000000000000001</Mass>
+<CenterOfMass>0.00906057374696961 0.0090635406716239424 0.002503989273642631</CenterOfMass>
+<Inertia>1.0474895068671696e-07 1.3194040234899076e-07 1.9294182671615893e-07 2.9983881645731943e-09 2.1726610327297974e-09 -2.3798203238774453e-08</Inertia>
+</MassProperties>
+<GeometryFile name="VoltageRegulator_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="XL-320" uid="XL-320*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="XL-320.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016742467610300744</Mass>
+<CenterOfMass>-1.4873339716092954e-09 -0.0068372001696564849 0.00049765765077320852</CenterOfMass>
+<Inertia>2.2473733510935911e-06 1.494241600546272e-06 1.9774013092772998e-06 -6.2294612095358187e-08 2.4182768005956186e-13 2.8448613171511645e-13</Inertia>
+</MassProperties>
+<GeometryFile name="XL-320_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="XL-320_v2" uid="XL-320_v2*:*Default" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="XL-320_v2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.018000000000000002</Mass>
+<CenterOfMass>-1.4873339717047113e-09 -0.0068372001696564867 0.0004976576507732082</CenterOfMass>
+<Inertia>2.416174321567525e-06 1.6064745911937751e-06 2.1259245886247259e-06 -6.6973581422762882e-08 2.5999143868987322e-13 3.0585398101392968e-13</Inertia>
+</MassProperties>
+<GeometryFile name="XL-320_v2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bno055" uid="bno055*:*Default" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bno055.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0050000000000000001</Mass>
+<CenterOfMass>0 0.00080000000000000015 0</CenterOfMass>
+<Inertia>1.6628355550177621e-07 4.4965068047202349e-07 2.8550045830358061e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="bno055_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="m2.5x6" uid="m2.5x6*:*91290A101" version="128">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="m2.5x6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00044628931509697753</Mass>
+<CenterOfMass>-1.1455560594984262e-06 -7.0541330180574337e-08 -0.0055263614366621678</CenterOfMass>
+<Inertia>2.9052555823549602e-09 2.9055990880406927e-09 8.6592357492062473e-10 -6.7768168983945959e-13 1.2051712157010584e-12 -4.858682286005419e-14</Inertia>
+</MassProperties>
+<GeometryFile name="m2.5x6_91290A101_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Specular r="0.37058823529411761" g="0.3843137254901961" b="0.3843137254901961" a="1"/>
+<Emissive r="0.11117647058823529" g="0.11529411764705882" b="0.11529411764705882" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="m2x6" uid="m2x6*:*91290A013" version="128">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="m2x6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00026975949340772196</Mass>
+<CenterOfMass>3.7466592358112735e-08 1.506259148497246e-07 -0.0053525393271894386</CenterOfMass>
+<Inertia>1.5388561552802235e-09 1.5387557959096587e-09 3.5407980954548179e-10 -4.8165129721615073e-13 5.6049884564476607e-13 -2.5978112563191096e-14</Inertia>
+</MassProperties>
+<GeometryFile name="m2x6_91290A013_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Specular r="0.37058823529411761" g="0.3843137254901961" b="0.3843137254901961" a="1"/>
+<Emissive r="0.11117647058823529" g="0.11529411764705882" b="0.11529411764705882" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="orangePiLite_2" uid="orangePiLite_2*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="orangePiLite_2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.040000000000000001</Mass>
+<CenterOfMass>0.010887876911484689 0.0041701213920827072 0.0010768069620638232</CenterOfMass>
+<Inertia>8.4993546950546768e-06 2.4749506408117229e-05 1.7580263373534283e-05 -1.0980413632140194e-07 -1.7254792398172464e-06 -1.4670552457070164e-06</Inertia>
+</MassProperties>
+<GeometryFile name="orangePiLite_2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="sheild" uid="sheild*:*Default" version="1451">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="sheild.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0082084693840869492</Mass>
+<CenterOfMass>0.0014709984539403055 0.0065883024982638485 0.03540984820039593</CenterOfMass>
+<Inertia>4.2946529949894726e-06 7.2669388114533965e-06 3.6042203338041215e-06 1.6397511945686741e-08 -9.9130884494761347e-08 -3.8797668595563081e-08</Inertia>
+</MassProperties>
+<GeometryFile name="sheild_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="u2d2" uid="u2d2*:*Default" version="133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="u2d2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.02</Mass>
+<CenterOfMass>0 0.0073795597389035182 0</CenterOfMass>
+<Inertia>8.8608612232482329e-07 4.1486668768001542e-06 3.976792907384766e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="u2d2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
