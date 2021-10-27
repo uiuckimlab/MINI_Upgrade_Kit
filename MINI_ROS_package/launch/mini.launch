@@ -1,0 +1,7 @@
+<launch>
+    <rosparam file="$(find mini_ros)/config/missionPlan.yaml">
+    </rosparam> 
+
+    <node name="movement" pkg="mini_ros" type="ball_chasing_node" respawn="false" output="screen"/>
+    <node name="perception" pkg="mini_ros" type="perception.py" respawn="false" output="screen"/>
+</launch>
