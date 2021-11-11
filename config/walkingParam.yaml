@@ -1,0 +1,17 @@
+     x_size: 10 # step x size (stride size)
+     y_size: 35 # step y size (foot y-distance from the body center)
+     n_step: 6   # Always Even number
+     t_step: 1.0 # Step Size
+     ds_time: 0.1 # Double support phase ratio, (double support phase time)/ (step_time)   range: 0 ~ 1.0
+     z_h: 25.0 # Foot lifting height
+
+     pitch_ankle_gain: -0.02 # IMU orientation to ankle pitch angle feedback
+     roll_ankle_gain: -0.02 # IMU orientation to ankle roll angle feedback
+     pitch_disp_gain: 0 # IMU orientation to torso x direction feedback
+     roll_disp_gain: 20 # IMU orientation to torso y direction feedback
+     ax_gain: 0.0 # x direction acceleration feedback
+     ay_gain: 2.0 # y direction acceleration feedback
+
+            
+
+
