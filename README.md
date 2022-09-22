@@ -20,7 +20,7 @@ rosdep update
 Clone MINI_Upgrade_Kit repo from Github
 ```
 mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/src
-git clone -b ece598jk-workshop https://github.com/uiuckimlab/MINI_Upgrade_Kit.git
+git clone -b ece598jk-workshop-fall22 https://github.com/uiuckimlab/MINI_Upgrade_Kit.git
 ```
 
 Install Terminator 
@@ -108,7 +108,7 @@ rosrun rviz rviz
 
 Place object in from of the mini in Gazebo World
 
-# Record and play back rosbag
+## Record and play back rosbag
 ```
 rosbag record -O robotis_mini_demo.bag l_foot_Fz r_foot_Fz robotis_mini/joint_states 
 rosbag info robotis_mini_demo.bag
@@ -117,7 +117,7 @@ rosbag play robotis_mini_demo.bag
 rostopic echo -b robotis_mini_demo.bag -p /joint_states robotis_mini_demo.csv
 ```
 
-# Exploring RQT tools
+## Exploring RQT tools
 ```
 rqt
 ```
