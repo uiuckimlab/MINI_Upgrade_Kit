@@ -1,0 +1,19 @@
+<launch>
+  <!-- This param file is where any environment-agnostic (live or simulation)
+  configuration should be loaded, including controllers -->
+  <rosparam file="$(find robotis_mini_control)/config/robotis_mini_control.yaml" command="load"/>
+
+  <!-- This node loads the controllers into a controller manager (real or simulated). The
+  controllers are defined in config/robotis_mini_control.yaml -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+      output="screen" ns="/robotis_mini"
+      args="full_body_controller
+      joint_state_controller"/>
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+      respawn="false" output="screen">
+    <remap from="/joint_states" to="/robotis_mini/joint_states" />
+  </node>
+
+</launch>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
+       xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
+       xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
+       xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:macro name="robotis_mini_base" params="name">
+    <link name="${name}_link" />
+    
+    <!-- Camera -->
+    <link name="camera_link"/>    
+    <joint name="camera_joint" type="fixed">
+      <origin xyz="0.03 0 0.04" rpy="0 0 0"/>
+      <parent link="${name}_link"/>
+      <child link="camera_link"/>
+    </joint>
+    
+  </xacro:macro>
+
+</robot>

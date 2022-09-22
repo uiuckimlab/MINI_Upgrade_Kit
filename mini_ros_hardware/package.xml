@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>mini_ros</name>
+  <version>1.0.0</version>
+  <description>ROS package for Upgrade MINI</description>
+
+  <author email="kggim2@illinoise.edu">Kevin Gim</author> -->
+  <maintainer email="kggim2@illinoise.edu">Kevin Gim</maintainer>
+
+  <license>Apache 2.0</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>dynamixel_sdk</depend>
+  <depend>gazebo_msgs</depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+</package>
