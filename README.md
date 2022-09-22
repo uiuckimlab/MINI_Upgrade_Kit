@@ -45,7 +45,7 @@ sudo apt-get install ros-noetic-dynamixel-sdk \
 
 ```
 sudo apt install python3-pip
-pip3 install urdf_parser_py, scipy
+pip3 install urdf_parser_py scipy
 ```
 
 Make using catkin and source ros workspace env
