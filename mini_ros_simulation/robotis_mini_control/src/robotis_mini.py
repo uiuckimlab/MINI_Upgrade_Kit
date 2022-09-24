@@ -33,10 +33,10 @@ class RobotisMini:
         self.current_velocity = msg.velocity
         self.current_effort = msg.effort
 
-        print("l_ankle_joint position: ", self.current_position[0],
-                "\nl_ankle_joint velocity:", self.current_velocity[0],
-                "\nl_ankle_joint effort", self.current_effort[0],
-                "\n-------------------")
+        # print("l_ankle_joint position: ", self.current_position[0],
+        #         "\nl_ankle_joint velocity:", self.current_velocity[0],
+        #         "\nl_ankle_joint effort", self.current_effort[0],
+        #         "\n-------------------")
 
     def init_pose(self, z_height):
         z_height = 30
