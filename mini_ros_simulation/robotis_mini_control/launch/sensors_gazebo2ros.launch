@@ -1,7 +1,7 @@
 <launch>
-  <node name="center_of_mass" pkg="robotis_mini_control" type="com.py" required="true">
+  <!-- <node name="center_of_mass" pkg="robotis_mini_control" type="com.py" required="true">
     <param name="base_link_frame" value="world"/>
-  </node>
+  </node> -->
   <node name="odom" pkg="robotis_mini_control" type="odom.py" required="true" />
   <node name="ft_contact" pkg="robotis_mini_control" type="ft_contact.py" required="true" />
 </launch>
