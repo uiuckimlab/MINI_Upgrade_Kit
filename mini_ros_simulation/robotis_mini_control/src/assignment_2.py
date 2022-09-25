@@ -11,25 +11,60 @@ from robotis_mini import RobotisMini
 from dynamic_reconfigure.server import Server
 from robotis_mini_control.cfg import RobotisMiniConfig
 
+x_foot_pos = 0
 y_foot_pos = 0
+z_foot_pos = 0
 
 def callback(config, level):
+    global x_foot_pos
     global y_foot_pos
+    global z_foot_pos
 
-    print(config)
+    x_foot_pos = config['x_foot_pos']
     y_foot_pos = config['y_foot_pos']
-    execute_static_foot_position(robot, x_offset=0, y_offset=y_foot_pos, z_height=30)
+    z_foot_pos = config['z_foot_pos']
+
+    execute_static_foot_position(robot, x_offset=x_foot_pos, 
+                                        y_offset=y_foot_pos, 
+                                        z_height=z_foot_pos, time = 1.0)
+
+    print("x_foot_pos: ", x_foot_pos, 
+        "\ny_foot_pos: ", y_foot_pos,
+        "\nz_foot_pos: ", z_foot_pos,
+        "\n--------------------")
+
     return config
 
-def execute_static_foot_position(robot, x_offset, y_offset, z_height):
+def sine_wave_input():
+    start_time = 0
+    end_time = 10
+    sample_rate = 1000
+    frequency = 0.25
+    amplitude = 30
+    theta = 0
+    time = np.arange(start_time, end_time, 1/sample_rate)
+    sinewave = amplitude * np.sin(2 * np.pi * frequency * time + theta)
+    plt.plot(time, sinewave)
+    return sinewave
+
+def triangle_wave_input(): 
+    start_time = 0
+    end_time = 10
+    sample_rate = 1000
+    frequency = 0.25
+    amplitude = 30
+    theta = 0
+    time = np.arange(start_time, end_time, 1/sample_rate)
+    sawtooth_wave = amplitude * signal.sawtooth(2 * np.pi * frequency * time + theta, width=0.5)
+    plt.plot(time, sawtooth_wave)
+    return sawtooth_wave
+
+def execute_static_foot_position(robot, x_offset, y_offset, z_height, time):
     """
     TODO: Implement static foot position input
     """
-    # joint_values_left_hand = robot.ik_left_hand(robot.x_LH0+50, robot.y_LH0-100, robot.z_LH0-90)
-    # joint_values_right_hand = robot.ik_right_hand(robot.x_RH0+50, robot.y_RH0+100, robot.z_RH0-90)
     joint_values_right_hand = [0, 0, 0]
     joint_values_left_hand = [0, 0, 0]
-    # y +/- 20, x +/- 20
     joint_values_right_foot = robot.ik_right_foot(robot.x_RF0+x_offset, robot.y_RF0+y_offset, robot.z_RF0+z_height, robot.roll_RF0, robot.pitch_RF0)
     joint_values_left_foot = robot.ik_left_foot(robot.x_LF0+x_offset, robot.y_LF0+y_offset, robot.z_LF0+z_height, robot.roll_LF0, robot.pitch_LF0)
 
@@ -44,28 +79,31 @@ def execute_static_foot_position(robot, x_offset, y_offset, z_height):
 
     point = JointTrajectoryPoint()                  
     point.positions = joint_pos_values
-    point.time_from_start = rospy.Duration(1.0)
+    point.time_from_start = rospy.Duration(time)
     traj_msg.points.append(point)
 
     robot.execute_pub.publish(traj_msg)
-    rospy.sleep(1.0)
+    rospy.sleep(time)
 
 def execute_variable_foot_position(robot):
     """
     TODO: Implement variable foot position input
     """
-    pass
-
+    input = triangle_wave_input()
+    for i in input:   
+        execute_static_foot_position(robot, x_offset=0, 
+                                            y_offset=i, 
+                                            z_height=35, 
+                                            time = 0.01)
+        
 if __name__ == '__main__':
     rospy.init_node('assignment2')
-    robot = RobotisMini()
-    is_static = True
 
+    robot = RobotisMini()
+    # init dynamic reconfigure server 
     srv = Server(RobotisMiniConfig, callback)
 
-    # if is_static:
-    #     execute_static_foot_position(robot, x_offset=0, y_offset=-0, z_height=30)
-    # else:
-    #     execute_variable_foot_position(robot)
+    
+    execute_variable_foot_position(robot)
     
     rospy.spin()

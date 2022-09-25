@@ -17,13 +17,21 @@
 
   <xacro:robotis_mini_base name="base"/>
 
-  <xacro:robotis_mini_body2 parent="base_link" />
+  <!-- <xacro:robotis_mini_body2 parent="base_link" />
 
   <xacro:robotis_mini_arm side="l" reflect="1" parent="left_arm_socket_link" />
   <xacro:robotis_mini_arm side="r" reflect="-1" parent="right_arm_socket_link" />
 
   <xacro:robotis_mini_leg side="l" reflect="1" parent="left_leg_socket_link" />
-  <xacro:robotis_mini_leg side="r" reflect="-1" parent="right_leg_socket_link" />
+  <xacro:robotis_mini_leg side="r" reflect="-1" parent="right_leg_socket_link" /> -->
+
+  <xacro:robotis_mini_body parent="base_link" />
+
+  <xacro:robotis_mini_arm side="l" reflect="1" parent="l_shoulder_anchor_link" />
+  <xacro:robotis_mini_arm side="r" reflect="-1" parent="r_shoulder_anchor_link" />
+
+  <xacro:robotis_mini_leg side="l" reflect="1" parent="l_hip_anchor_link" />
+  <xacro:robotis_mini_leg side="r" reflect="-1" parent="r_hip_anchor_link" />
 
   <gazebo>
     <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">

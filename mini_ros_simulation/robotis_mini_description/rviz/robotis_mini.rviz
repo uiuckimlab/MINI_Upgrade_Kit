@@ -7,7 +7,7 @@ Panels:
         - /Global Options1
         - /RobotisMiniModel1/Links1
       Splitter Ratio: 0.7104166746139526
-    Tree Height: 477
+    Tree Height: 611
   - Class: rviz/Views
     Expanded:
       - /Current View1
@@ -34,6 +34,31 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+        body_back_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        body_chest_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        body_head_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        body_skeleton_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        body_torso_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         camera_link:
           Alpha: 1
           Show Axes: false
@@ -174,6 +199,11 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        l_hip_anchor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         l_hip_link:
           Alpha: 1
           Show Axes: false
@@ -203,6 +233,11 @@ Visualization Manager:
           Show Trail: false
           Value: true
         l_lower_leg_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        l_shoulder_anchor_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -260,14 +295,15 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        left_arm_socket_link:
+        neck_axis_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        left_leg_socket_link:
+        neck_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+          Value: true
         r_achiles_link:
           Alpha: 1
           Show Axes: false
@@ -404,6 +440,11 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        r_hip_anchor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         r_hip_link:
           Alpha: 1
           Show Axes: false
@@ -433,6 +474,11 @@ Visualization Manager:
           Show Trail: false
           Value: true
         r_lower_leg_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        r_shoulder_anchor_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -490,19 +536,6 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        right_arm_socket_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        right_leg_socket_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        robotis_mini_upgrade_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
       Name: RobotisMiniModel
       Robot Description: robot_description
       TF Prefix: ""
@@ -533,7 +566,7 @@ Visualization Manager:
       Queue Size: 100
       Value: true
     - Class: rviz/Camera
-      Enabled: true
+      Enabled: false
       Image Rendering: background and overlay
       Image Topic: /robotis_mini/camera1/image_raw
       Name: Camera
@@ -541,7 +574,7 @@ Visualization Manager:
       Queue Size: 2
       Transport Hint: raw
       Unreliable: false
-      Value: true
+      Value: false
       Visibility:
         Marker: true
         RobotisMiniModel: true
@@ -596,12 +629,12 @@ Window Geometry:
     collapsed: false
   Displays:
     collapsed: false
-  Height: 1163
+  Height: 840
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000001e200000431fc0200000007fc0000003d00000268000000c900fffffffa000000010100000002fb00000018004300790063006c006f00700065002d00760069006500770000000000ffffffff0000000000000000fb000000100044006900730070006c0061007900730100000000000001e20000015600fffffffb0000000c00430061006d00650072006101000002ab000001c30000001600fffffffb0000000a005600690065007700730000000299000000b5000000a400fffffffb00000018004300790063006c006f00700065002d0076006900650077000000028d000001010000000000000000fb00000018004300790063006c006f00700065002d0076006900650077030000057e0000021800000227000001b0fb0000000c00430061006d00650072006102000004c6000001ab0000023d000001c3fb00000018004300790063006c006f00700065002d007600690065007702000002c3000000dc00000270000001b9000005980000043100000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd000000010000000000000156000002eefc0200000007fc0000003d000002ee000000c900fffffffa000000010100000002fb00000018004300790063006c006f00700065002d00760069006500770000000000ffffffff0000000000000000fb000000100044006900730070006c0061007900730100000000000001e20000015600fffffffb0000000c00430061006d00650072006100000001f10000013a0000001600fffffffb0000000a005600690065007700730000000299000000b5000000a400fffffffb00000018004300790063006c006f00700065002d0076006900650077000000028d000001010000000000000000fb00000018004300790063006c006f00700065002d0076006900650077030000057e0000021800000227000001b0fb0000000c00430061006d00650072006102000004c6000001ab0000023d000001c3fb00000018004300790063006c006f00700065002d007600690065007702000002c3000000dc00000270000001b9000002a1000002ee00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: false
-  Width: 1920
-  X: 0
-  Y: 0
+  Width: 1021
+  X: 1942
+  Y: 64
