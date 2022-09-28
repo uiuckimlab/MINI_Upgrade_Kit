@@ -38,12 +38,11 @@ class RobotisMini:
         #         "\nl_ankle_joint effort", self.current_effort[0],
         #         "\n-------------------")
 
-    def init_pose(self, z_height):
-        z_height = 30
+    def init_pose(self, z_foot_pos):
         joint_values_right_hand = [0, 0, 0]
         joint_values_left_hand = [0, 0, 0]
-        joint_values_right_foot = self.ik_right_foot(self.x_RF0, self.y_RF0, self.z_RF0+z_height, self.roll_RF0, self.pitch_RF0)
-        joint_values_left_foot = self.ik_left_foot(self.x_LF0, self.y_LF0, self.z_LF0+z_height, self.roll_LF0, self.pitch_LF0)
+        joint_values_right_foot = self.ik_right_foot(self.x_RF0, self.y_RF0, z_foot_pos, self.roll_RF0, self.pitch_RF0)
+        joint_values_left_foot = self.ik_left_foot(self.x_LF0, self.y_LF0, z_foot_pos, self.roll_LF0, self.pitch_LF0)
 
         joint_pos_values = joint_values_right_hand + joint_values_left_hand \
                             + joint_values_right_foot + joint_values_left_foot
@@ -56,11 +55,11 @@ class RobotisMini:
 
         point = JointTrajectoryPoint()                  
         point.positions = joint_pos_values
-        point.time_from_start = rospy.Duration(3.0)
+        point.time_from_start = rospy.Duration(2.0)
         traj_msg.points.append(point)
 
         self.execute_pub.publish(traj_msg)
-        rospy.sleep(3.0)
+        rospy.sleep(2.0)
 
     def ik_right_hand(self, x_RH, y_RH, z_RH):
         L_sh = 39.0 # Origin to arm roll joint

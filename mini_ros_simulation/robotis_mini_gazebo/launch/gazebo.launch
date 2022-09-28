@@ -19,7 +19,7 @@
  
   <!-- push robot_description to factory and spawn robot in gazebo -->
   <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" output="screen" 
-      args="-z 0.18 -urdf -param robot_description -model robotis_mini
+      args="-z 0.13 -urdf -param robot_description -model robotis_mini
                                                         -J r_hip_joint 0.0000
                                                         -J r_thigh_joint -0.799297
                                                         -J r_knee_joint 1.570796
