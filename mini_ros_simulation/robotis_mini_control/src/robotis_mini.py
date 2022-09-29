@@ -32,8 +32,8 @@ class RobotisMini:
         self.current_effort = msg.effort
 
     def init_pose(self, z_foot_pos):
-        joint_values_right_hand = [0, 0, 0]
-        joint_values_left_hand = [0, 0, 0]
+        joint_values_right_hand = self.ik_right_hand(self.x_RH0, self.y_RH0, self.z_RH0)
+        joint_values_left_hand = self.ik_left_hand(self.x_LH0, self.y_LH0, self.z_LH0)
         joint_values_right_foot = self.ik_right_foot(self.x_RF0, self.y_RF0, z_foot_pos, self.roll_RF0, self.pitch_RF0)
         joint_values_left_foot = self.ik_left_foot(self.x_LF0, self.y_LF0, z_foot_pos, self.roll_LF0, self.pitch_LF0)
 
@@ -62,7 +62,7 @@ class RobotisMini:
         L_a4 = 72.0 # Lower arm length
 
         # Right Arm
-        x_RH0 = x_RH
+        x_RH0 = x_RH + 1e-9 # avoid singularity
         y_RH0 = y_RH + (L_sh + L_a1)
         z_RH0 = z_RH
 
@@ -108,7 +108,7 @@ class RobotisMini:
 
         # Position of Left hand in Initial Pose (all the left arm motor angle == 0)
         # Left Arm
-        x_LH0 = x_LH
+        x_LH0 = x_LH + 1e-9 # avoid singularity
         y_LH0 = y_LH - (L_sh + L_a1)
         z_LH0 = z_LH
 
@@ -117,7 +117,7 @@ class RobotisMini:
         # Range of XL320 motor -150 to 150 deg
 
         R1_LH = math.sqrt((x_LH0 - L_a2 * np.sin(th2)) * (x_LH0 - L_a2 * np.sin(th2)) \
-                            + y_LH0 * y_LH0 + (z_LH0 + L_a2 * np.cos(th2)) * (z_LH0 + L_a2 * np.cos(th2)))
+                            + (y_LH0*y_LH0) + (z_LH0 + L_a2 * np.cos(th2)) * (z_LH0 + L_a2 * np.cos(th2)))
 
         if R1_LH > 117:
             R1_LH = 117
@@ -176,7 +176,7 @@ class RobotisMini:
 
         th15 = -np.arcsin(np.sin(th_roll - th7) * np.cos(th_pitch))
 
-        ret = [th7, th9, th11, -th13, th15]
+        ret = [th7, th9, th11, th13, th15]
         return ret
 
     def ik_left_foot(self, x_LF, y_LF, z_LF, th_roll, th_pitch):
@@ -210,7 +210,7 @@ class RobotisMini:
                             * np.sin(th_pitch) * np.sin(th_roll) * np.sin(th8))
         th16 = -np.arcsin(np.sin(th_roll - th8) * np.cos(th_pitch))
 
-        ret = [-th8, -th10, -th12, th14, -th16]
+        ret = [th8, th10, th12, th14, th16]
         return ret
 
 if __name__ == '__main__':

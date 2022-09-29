@@ -6,7 +6,7 @@
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
-  <arg name="model" default="$(find robotis_mini_description)/urdf/robotis_mini.urdf.xacro"/>
+  <arg name="model" default="$(find robotis_mini_description)/urdf/robotis_mini.urdf"/>
 
   <!-- define the robot_description parameter as the output of the xacro deparser on the urdf model of the robot-->
   <param name="robot_description" command="$(find xacro)/xacro $(arg model)" />
@@ -23,11 +23,11 @@
                                                         -J r_hip_joint 0.0000
                                                         -J r_thigh_joint -0.799297
                                                         -J r_knee_joint 1.570796
-                                                        -J r_ankle_joint -0.884795
+                                                        -J r_ankle_joint 0.884795
                                                         -J r_foot_joint 0.040955
-                                                        -J l_hip_joint -0.059922
-                                                        -J l_thigh_joint -0.802050
-                                                        -J l_knee_joint 1.570796
+                                                        -J l_hip_joint 0.059922
+                                                        -J l_thigh_joint 0.802050
+                                                        -J l_knee_joint -1.570796
                                                         -J l_ankle_joint -0.883127
-                                                        -J l_foot_joint -0.047817" />
+                                                        -J l_foot_joint 0.047817" />
 </launch>
