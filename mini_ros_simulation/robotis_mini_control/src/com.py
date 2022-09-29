@@ -10,31 +10,29 @@ class MINI_CoM:
     
     def __init__(self):
         rospy.init_node('mini_com', anonymous=True)
+        self.base_link_frame = rospy.get_param("~base_link_frame", "world")
 
-        self.base_link_frame = rospy.get_param("~base_link_frame", "base_link")
-        self.total_mass = 0
-        #get robot description from URDF
+        self.tfBuffer = tf2_ros.Buffer()
+        tf2_ros.TransformListener(self.tfBuffer)
+
+        self.init_link_inertial_info()
+        self.init_marker()
+    
+    def init_link_inertial_info(self):
         robot = URDF.from_parameter_server()
-        self.links = robot.link_map
-        self.inertial_dict = {}
-
-        #Delete links, which contain no mass description
+        links = robot.link_map
+        
         unnecessary_links = []
-        for link in self.links:
-            if self.links[link].inertial == None or self.links[link].inertial.origin == None:
+        for link in links:
+            if links[link].inertial == None or links[link].inertial.origin == None:
                 unnecessary_links.append(link)
 
         for link in unnecessary_links:
-            del self.links[link]
+            del links[link]
         
-        #Calculate the total mass of the robot
-        for link in self.links:
-            self.total_mass += self.links[link].inertial.mass
-            self.inertial_dict[link] = self.links[link].inertial.to_yaml()
-
-        rospy.loginfo("Mass of robot is %f", self.total_mass)
-
-        self.init_marker()
+        self.link_info = {}
+        for link in links:
+            self.link_info[link] = links[link].inertial.to_yaml()
 
     def init_marker(self):
         marker = Marker()
@@ -49,74 +47,47 @@ class MINI_CoM:
         marker.scale.y = 0.03
         marker.scale.z = 0.03
         self.marker = marker
-    
-    def start(self):
+        self.marker_pub = rospy.Publisher('com', Marker, queue_size=1)
+
+    def transform_CoM(self):
+        """
+        TODO: transform all CoM positions from link frame to base frame
+
+        Tips:
+        - self.tfBuffer.lookup_transform(frame1, frame2) gets transform from two coord frames
+        - Use tf_geo.do_transform_point(transform, point) to apply transform where point
+            is ros_msg type geometry_msgs.msg.PointStamped()
+        - To get position in link frame -> self.link_info[link]['origin']['xyz']
+        - To get mass information -> self.link_info[link]['mass']
+        """
+        for link in self.link_info.keys():
+            trans = self.tfBuffer.lookup_transform(self.base_link_frame, link, rospy.Time())
+
+            # ...
+
+    def calculate_CoM(self):
         """
         TODO: Calculate whole body CoM 
         """
-        #initializations for tf and marker
-        tfBuffer = tf2_ros.Buffer()
-        listener = tf2_ros.TransformListener(tfBuffer)
-        P_CoM_link = geometry_msgs.msg.PointStamped()
-        
-        pub = rospy.Publisher('com', Marker, queue_size=1)
-        
-        rate = rospy.Rate(100)
-        rospy.sleep(2.0)
-        
-        #loop for calculating the CoM while robot is not shutdown
-        while not rospy.is_shutdown():
-            x = 0
-            y = 0
-            z = 0
-            for link in self.links:
-                try:
-                    #get transformation matrix of link (target, source)
-                    trans = tfBuffer.lookup_transform(self.base_link_frame, link, rospy.Time())
-
-                    #transform CoM of link
-                    #   m_i = self.links[link].inertial.mass
-                    #   P_CoM_n = self.links[link].inertial.origin.xyz -> tf link to base frame
-                    P_CoM_link.point.x = self.links[link].inertial.origin.xyz[0]
-                    P_CoM_link.point.y = self.links[link].inertial.origin.xyz[1]
-                    P_CoM_link.point.z = self.links[link].inertial.origin.xyz[2]
-                    P_CoM_link.header.frame_id = link
-                    P_CoM_link.header.stamp = rospy.get_rostime()
-
-                    P_CoM_n = tf_geo.do_transform_point(P_CoM_link, trans)
-                    m_i = self.links[link].inertial.mass
-                    
-                    #calculate part of CoM equation depending on link
-                    x += m_i * P_CoM_n.point.x
-                    y += m_i * P_CoM_n.point.y
-                    z += m_i * P_CoM_n.point.z
-
-                except tf2_ros.TransformException as err:
-                    rospy.logerr("TF error in COM computation %s", err)
-
-                
-            #finish CoM calculation
-            x = x/self.total_mass
-            y = y/self.total_mass
-            z = z/self.total_mass
-
-            #send CoM position to RViZ
-            self.marker.pose.position.x = x
-            self.marker.pose.position.y = y
-            self.marker.pose.position.z = z
-            pub.publish(self.marker)
-
-            try:
-                rate.sleep()
-            except rospy.exceptions.ROSTimeMovedBackwardsException:
-                rospy.logwarn("Moved backwards in time.")
+        self.com_x = 0
+        self.com_y = 0
+        self.com_z = 0
+        # ...
 
     def visualize_CoM(self):
-        """
-            TODO: Visualize whole body CoM in Rviz
-        """
-        pass
+        self.marker.pose.position.x = self.com_x
+        self.marker.pose.position.y = self.com_y
+        self.marker.pose.position.z = self.com_z
+        self.marker_pub.publish(self.marker)
              
 if __name__ == '__main__':
     mini_com = MINI_CoM()
-    mini_com.start()
+    rate = rospy.Rate(100)
+    rospy.sleep(2.0)
+    
+    while not rospy.is_shutdown():
+        mini_com.transform_CoM()
+        mini_com.calculate_CoM()
+        mini_com.visualize_CoM()
+
+        rate.sleep()

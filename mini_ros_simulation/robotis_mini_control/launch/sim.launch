@@ -4,8 +4,4 @@
   
   <!-- sets and launches the controllers for robotis mini -->
   <include file="$(find robotis_mini_control)/launch/control.launch" />
-
-  <!-- launch rviz-->
-  <arg name="rvizconfig" default="$(find robotis_mini_description)/rviz/robotis_mini.rviz" />
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true" />
 </launch>

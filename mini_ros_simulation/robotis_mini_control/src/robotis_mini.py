@@ -15,12 +15,10 @@ class RobotisMini:
         self.x_RF0, self.y_RF0, self.z_RF0, self.roll_RF0, self.pitch_RF0 = 15.0, -33.0, -196.0, 0.0, 0.0
         self.x_LF0, self.y_LF0, self.z_LF0, self.roll_LF0, self.pitch_LF0 = 15.0, 33.0, -196.0, 0.0, 0.0
 
-        self.execute_pub = rospy.Publisher("/robotis_mini/full_body_controller/command", JointTrajectory, queue_size=100)
-        self.jointTrajectoryControllerStateSubscriber = rospy.Subscriber("/robotis_mini/full_body_controller/state", JointTrajectoryControllerState, self.callback_state)
+        self.execute_pub = rospy.Publisher("/robotis_mini/whole_body_controller/command", JointTrajectory, queue_size=100)
+        self.jointTrajectoryControllerStateSubscriber = rospy.Subscriber("/robotis_mini/whole_body_controller/state", JointTrajectoryControllerState, self.callback_state)
         rospy.sleep(1.0)
 
-        # Initalize subscriber to robotis_mini/joint_states and callback function 
-        # each time data is published
         sub_joint_state = rospy.Subscriber('robotis_mini/joint_states', JointState, self.joint_state_callback)
 
 
@@ -32,11 +30,6 @@ class RobotisMini:
         self.current_position = msg.position
         self.current_velocity = msg.velocity
         self.current_effort = msg.effort
-
-        # print("l_ankle_joint position: ", self.current_position[0],
-        #         "\nl_ankle_joint velocity:", self.current_velocity[0],
-        #         "\nl_ankle_joint effort", self.current_effort[0],
-        #         "\n-------------------")
 
     def init_pose(self, z_foot_pos):
         joint_values_right_hand = [0, 0, 0]
