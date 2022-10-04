@@ -33,6 +33,12 @@ Terminal C: rosrun assignment script
 cd ~/ws_mini && source devel/setup.bash && rosrun robotis_mini_control foot_position.py
 ```
 
+Terminal D: Use rqt_reconfigure tool to control the static foot position
+```
+cd ~/ws_mini && source devel/setup.bash && rosrun rqt_reconfigure rqt_reconfigure 
+```
+![alt text](http://url/to/img.png)
+
 # ROS Setup and Tips
 
 Install ROS Noetic
