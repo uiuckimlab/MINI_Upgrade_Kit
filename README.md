@@ -27,17 +27,24 @@ Terminal B: launch rviz and configs
 cd ~/ws_mini && source devel/setup.bash && roslaunch robotis_mini_control rviz.launch
 ```
 
-Terminal C: rosrun assignment script
+At this point, if everything is run correctly, you should see the Robotis MINI model standing upright in
+the Gazebo simulation (with the sim time increasing) and Rviz visualization. You will now need to write code in com.py and foot_position.py to complete your assignment. This assignment uses `position_control/JointTrajectoryController` from `ros_control` library to control the MINI. For more information about ros_control and available controllers, see [here](http://wiki.ros.org/ros_control).
+
+You can send position and trajectory commands to the controller manager by publishing to the topic `/robotis_mini/whole_body_controller/command` and see current joint state information by subscribing to `robotis_mini/joint_states`. The publisher and subscriber has been already initialized for you in `robotis_mini.py` so you will just need to publish the commands. An example can be seen in the already implemented `execute_static_foot_position()` function which uses the parameters set in rqt_reconfigure to statically move the MINI's foot positon. You can use this as a reference when implementing `execute_variable_foot_position()`.
+
+Terminal C: After you implement the code, rosrun assignment script
 
 ```
 cd ~/ws_mini && source devel/setup.bash && rosrun robotis_mini_control foot_position.py
 ```
 
-Terminal D: Use rqt_reconfigure tool to control the static foot position
+Terminal D: For Q1.2, use rqt_reconfigure tool to dynamically change the static foot position params.
+
 ```
-cd ~/ws_mini && source devel/setup.bash && rosrun rqt_reconfigure rqt_reconfigure 
+cd ~/ws_mini && source devel/setup.bash && rosrun rqt_reconfigure rqt_reconfigure
 ```
-![alt text](http://url/to/img.png)
+
+![alt text](img/rqt_reconfigure.png)
 
 # ROS Setup and Tips
 
